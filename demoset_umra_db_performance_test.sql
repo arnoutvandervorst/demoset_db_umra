@@ -26,3 +26,7 @@ EXEC spTags_relationships_snapshot_common
 EXEC spTags_relationships_snapshot_right
 -- group memberships in AD not present in any tag relationship
 EXEC spTags_relationships_snapshot_right_all
+-- all user objects with tag timers on tag ID=1
+EXEC spTag_objects_timer_get 1, 'user'
+-- all user objects with tag timers on all tags
+EXEC spTags_objects_timer_get 'user'
