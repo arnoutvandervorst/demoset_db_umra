@@ -1,3 +1,6 @@
+USE workflow
+GO
+
 UPDATE workflowLayers SET visible = 0 WHERE workflowLayers.ID IN
 (SELECT workflowlayers.ID FROM workflowLayers
 INNER JOIN workflows ON workflows.ID = workflowLayers.workflowID
