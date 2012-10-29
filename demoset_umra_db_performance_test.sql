@@ -8,6 +8,8 @@ SELECT * FROM fnCache_get('user')
 SELECT * FROM fnSnapshot_relationships_get(1,0,NULL,NULL,NULL)
 -- all objects in tag ID=1
 SELECT * FROM fnTag_objects_get(1,NULL,1,0)
+-- all objects from latest snapshot where pers_nr=employeeID
+SELECT * FROM fnSnapshot_objects_get_attribute_related(0,'pers_nr','employeeID',NULL,NULL)
 -- all tags where is_active = true
 SELECT * FROM fnTags_get(1,NULL,NULL)
 -- all objects in tags where is_active = true
