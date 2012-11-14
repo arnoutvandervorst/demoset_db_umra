@@ -17,7 +17,7 @@ SELECT * FROM fnTags_objects_get(NULL,1,0)
 -- all relationships between objects in tags where is_active = true
 SELECT * FROM fnTags_relationships_get(1,0,NULL,NULL)
 -- relationship report on AD on attributes department + title
-EXEC spSnapshot_table_relationships_report 'department','title'
+EXEC spSnapshot_table_relationships_report 'department,title'
 -- tag relationships not present in AD
 EXEC spTags_relationships_snapshot_left
 -- tag relationship matches in AD
