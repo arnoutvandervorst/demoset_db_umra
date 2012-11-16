@@ -9,7 +9,7 @@
   <workflowIcon>10.png</workflowIcon>
   <category>
     <id>11</id>
-    <name>Rapportage</name>
+    <name><![CDATA[Rapportage]]></name>
     <sequence>3</sequence>
   </category>
   <workflowLayers>
@@ -171,6 +171,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Beschikbare rapportages]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>radioButtonList</type>
                   <maxLength>
@@ -213,6 +215,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -238,6 +242,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Genereer en toon rapport]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -432,6 +438,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Rapport]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -467,6 +475,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -492,6 +502,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>backButton</type>
                   <maxLength>

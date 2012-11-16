@@ -9,7 +9,7 @@
   <workflowIcon>11.png</workflowIcon>
   <category>
     <id>9</id>
-    <name>Self-service</name>
+    <name><![CDATA[Self-service]]></name>
     <sequence>1</sequence>
   </category>
   <workflowLayers>
@@ -561,6 +561,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Autorisaties]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -616,6 +618,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Autorisaties]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>compareList</type>
                   <maxLength>
@@ -661,6 +665,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -686,6 +692,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Volgende]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -924,6 +932,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Manager]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -969,6 +979,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Autorisaties]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -1014,6 +1026,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Aanvraag autorisatie]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>textPart</type>
                   <maxLength>
@@ -1042,6 +1056,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1067,6 +1083,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Uit te zetten aanvragen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>8</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -1105,6 +1123,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>9</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1130,6 +1150,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>10</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -1155,6 +1177,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Aanvraag versturen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>11</sequence>
                   <type>saveButton</type>
                   <maxLength>
@@ -2895,6 +2919,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details van de aanvraag]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>showInstanceVariables</type>
                   <maxLength>
@@ -2920,6 +2946,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -2945,6 +2973,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Keur de aanvraag goed]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>approveButton</type>
                   <maxLength>
@@ -2969,6 +2999,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Aanvraag afkeuren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>rejectButton</type>
                   <maxLength>
@@ -3386,6 +3418,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details van de aanvraag]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>showInstanceVariables</type>
                   <maxLength>
@@ -3411,6 +3445,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -3436,6 +3472,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Keur de aanvraag goed]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>approveButton</type>
                   <maxLength>
@@ -3460,6 +3498,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Aanvraag afkeuren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>rejectButton</type>
                   <maxLength>
@@ -3790,6 +3830,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details van de aanvraag]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>showInstanceVariables</type>
                   <maxLength>
@@ -3815,6 +3857,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -3840,6 +3884,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Keur de aanvraag goed]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>approveButton</type>
                   <maxLength>
@@ -3864,6 +3910,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Aanvraag afkeuren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>rejectButton</type>
                   <maxLength>
@@ -4228,6 +4276,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details van de aanvraag]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>showInstanceVariables</type>
                   <maxLength>
@@ -4253,6 +4303,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -4278,6 +4330,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Keur de aanvraag goed]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>approveButton</type>
                   <maxLength>
@@ -4302,6 +4356,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Aanvraag afkeuren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>rejectButton</type>
                   <maxLength>

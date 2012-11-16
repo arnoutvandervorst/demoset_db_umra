@@ -9,7 +9,7 @@
   <workflowIcon>79.png</workflowIcon>
   <category>
     <id>11</id>
-    <name>Rapportage</name>
+    <name><![CDATA[Rapportage]]></name>
     <sequence>3</sequence>
   </category>
   <workflowLayers>
@@ -161,6 +161,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Log]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>25</maxLength>

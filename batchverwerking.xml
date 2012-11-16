@@ -9,7 +9,7 @@
   <workflowIcon>6.png</workflowIcon>
   <category>
     <id>13</id>
-    <name>Onderhoud</name>
+    <name><![CDATA[Onderhoud]]></name>
     <sequence>5</sequence>
   </category>
   <workflowLayers>
@@ -69,6 +69,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Batches]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-open</validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -121,6 +122,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -146,6 +149,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk taken]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-open</validationGroup>
                   <sequence>3</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -170,6 +174,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Batch aanpassen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-open</validationGroup>
                   <sequence>4</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -194,6 +199,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Batch uitvoeren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-open</validationGroup>
                   <sequence>5</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -218,6 +224,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Batch afsluiten]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-open</validationGroup>
                   <sequence>6</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -242,6 +249,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Refresh]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>refresh</validationGroup>
                   <sequence>7</sequence>
                   <type>searchButton</type>
                   <maxLength>
@@ -286,6 +294,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Batches]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-closed</validationGroup>
                   <sequence>3</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -338,6 +347,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -363,6 +374,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk taken]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>batches-closed</validationGroup>
                   <sequence>5</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -679,6 +691,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Tasks]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-open</validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -721,6 +734,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -746,6 +761,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -771,6 +788,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk opdrachten]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-open</validationGroup>
                   <sequence>4</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -795,6 +813,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Taak aanpassen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-open</validationGroup>
                   <sequence>5</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -819,6 +838,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Taak uitvoeren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-open</validationGroup>
                   <sequence>6</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -843,6 +863,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Taak afsluiten]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-open</validationGroup>
                   <sequence>7</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -887,6 +908,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Tasks]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-closed</validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -929,6 +951,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -954,6 +978,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -979,6 +1005,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk opdrachten]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-closed</validationGroup>
                   <sequence>4</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -1295,6 +1322,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Jobs]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>jobs-open</validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -1337,6 +1365,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1362,6 +1392,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -1387,6 +1419,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk inhoud]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>jobs-open</validationGroup>
                   <sequence>4</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -1431,6 +1464,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Jobs]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>jobs-closed</validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -1473,6 +1507,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1498,6 +1534,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -1523,6 +1561,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk inhoud]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>jobs-closed</validationGroup>
                   <sequence>4</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -1761,6 +1800,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Variables]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -1796,6 +1837,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1821,6 +1864,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -2172,6 +2217,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Omschrijving]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -2214,6 +2261,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -2249,6 +2298,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Mag automatisch uitgevoerd worden]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>checkBox</type>
                   <maxLength>
@@ -2284,6 +2335,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -2319,6 +2372,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Limiet op aantal uit te voeren taken]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -2361,6 +2416,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -2396,6 +2453,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Datum ingepland]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>calendar</type>
                   <maxLength>
@@ -2431,6 +2490,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>8</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -2456,6 +2517,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>9</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -2481,6 +2544,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bevestigen en toepassen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>10</sequence>
                   <type>saveButton</type>
                   <maxLength>
@@ -3122,6 +3187,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Omschrijving]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -3164,6 +3231,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -3199,6 +3268,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Mag automatisch uitgevoerd worden]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>checkBox</type>
                   <maxLength>
@@ -3234,6 +3305,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>8</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -3269,6 +3342,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Datum ingepland]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>9</sequence>
                   <type>calendar</type>
                   <maxLength>
@@ -3304,6 +3379,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>10</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -3329,6 +3406,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>11</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -3354,6 +3433,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bevestigen en toepassen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>12</sequence>
                   <type>saveButton</type>
                   <maxLength>
@@ -3829,6 +3910,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -3864,6 +3947,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -3889,6 +3974,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -3914,6 +4001,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Voer de batch uit]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>approveButton</type>
                   <maxLength>
@@ -4443,6 +4532,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -4478,6 +4569,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -4503,6 +4596,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -4528,6 +4623,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Voer de taak uit]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>approveButton</type>
                   <maxLength>
@@ -4969,6 +5066,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -5004,6 +5103,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -5029,6 +5130,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -5054,6 +5157,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Sluit de batch af]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>rejectButton</type>
                   <maxLength>
@@ -5583,6 +5688,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -5618,6 +5725,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -5643,6 +5752,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -5668,6 +5779,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Sluit de taak af]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>rejectButton</type>
                   <maxLength>
@@ -6318,6 +6431,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Tasks]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-closed</validationGroup>
                   <sequence>6</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -6360,6 +6474,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -6385,6 +6501,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>8</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -6410,6 +6528,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk opdrachten]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>tasks-closed-selected</validationGroup>
                   <sequence>9</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -6658,6 +6777,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Jobs]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>jobs-closed</validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -6700,6 +6820,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -6725,6 +6847,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -6750,6 +6874,7 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bekijk inhoud]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>jobs-closed</validationGroup>
                   <sequence>4</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -6988,6 +7113,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Variables]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -7023,6 +7150,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -7048,6 +7177,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>backButton</type>
                   <maxLength>

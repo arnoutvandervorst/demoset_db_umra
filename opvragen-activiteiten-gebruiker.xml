@@ -9,7 +9,7 @@
   <workflowIcon>73.png</workflowIcon>
   <category>
     <id>13</id>
-    <name>Onderhoud</name>
+    <name><![CDATA[Onderhoud]]></name>
     <sequence>5</sequence>
   </category>
   <workflowLayers>
@@ -69,6 +69,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[User selectie]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -121,6 +123,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -146,6 +150,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Volgende]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -418,6 +424,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Gegevens]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -473,6 +481,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Instances]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -515,6 +525,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -540,6 +552,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -565,6 +579,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Inzoomen op activiteit]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -803,6 +819,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -838,6 +856,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Details]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>

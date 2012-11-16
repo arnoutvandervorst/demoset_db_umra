@@ -9,7 +9,7 @@
   <workflowIcon>37.png</workflowIcon>
   <category>
     <id>10</id>
-    <name>Gebruikers</name>
+    <name><![CDATA[Gebruikers]]></name>
     <sequence>2</sequence>
   </category>
   <workflowLayers>
@@ -69,6 +69,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[User selectie]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -121,6 +123,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -146,6 +150,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Volgende]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -690,6 +696,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -725,6 +733,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Attributen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -770,6 +780,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[HRM gegevens]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -815,6 +827,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Autorisaties]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -860,6 +874,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Alle lidmaatschappen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>
@@ -905,6 +921,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Tags]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
                   <maxLength>

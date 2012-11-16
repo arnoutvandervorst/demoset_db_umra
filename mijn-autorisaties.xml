@@ -9,7 +9,7 @@
   <workflowIcon>32.png</workflowIcon>
   <category>
     <id>9</id>
-    <name>Self-service</name>
+    <name><![CDATA[Self-service]]></name>
     <sequence>1</sequence>
   </category>
   <workflowLayers>
@@ -239,6 +239,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Autorisaties]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>gridView</type>
                   <maxLength>
@@ -281,6 +283,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -306,6 +310,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Toegang beheren]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -656,6 +662,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Autorisatie]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -711,6 +719,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Accounts]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>compareList</type>
                   <maxLength>
@@ -756,6 +766,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -781,6 +793,8 @@
                   <fieldColumn>1</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -806,6 +820,8 @@
                   <fieldColumn>2</fieldColumn>
                   <name><![CDATA[Volgende]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -1084,6 +1100,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Overzicht]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>showInstanceVariables</type>
                   <maxLength>
@@ -1109,6 +1127,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1134,6 +1154,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -1159,6 +1181,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bevestigen en toepassen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>saveButton</type>
                   <maxLength>

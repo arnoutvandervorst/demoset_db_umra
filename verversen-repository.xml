@@ -9,7 +9,7 @@
   <workflowIcon>9.png</workflowIcon>
   <category>
     <id>13</id>
-    <name>Onderhoud</name>
+    <name><![CDATA[Onderhoud]]></name>
     <sequence>5</sequence>
   </category>
   <workflowLayers>
@@ -59,6 +59,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Refresh de repository]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>approveButton</type>
                   <maxLength>

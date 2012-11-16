@@ -9,7 +9,7 @@
   <workflowIcon>31.png</workflowIcon>
   <category>
     <id>9</id>
-    <name>Self-service</name>
+    <name><![CDATA[Self-service]]></name>
     <sequence>1</sequence>
   </category>
   <workflowLayers>
@@ -331,6 +331,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Gegevens]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -376,6 +378,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Manager]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>propertyList</type>
                   <maxLength>
@@ -431,6 +435,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Telefoon (algemeen)]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -476,6 +482,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Telefoon (mobiel)]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -521,6 +529,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Telefoon (thuis/vast)]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -556,6 +566,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -581,6 +593,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Opslaan]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>saveButton</type>
                   <maxLength>

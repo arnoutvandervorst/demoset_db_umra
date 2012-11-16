@@ -9,7 +9,7 @@
   <workflowIcon>33.png</workflowIcon>
   <category>
     <id>10</id>
-    <name>Gebruikers</name>
+    <name><![CDATA[Gebruikers]]></name>
     <sequence>2</sequence>
   </category>
   <workflowLayers>
@@ -69,6 +69,8 @@
                   <fieldColumn>1</fieldColumn>
                   <name><![CDATA[Voorletters]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -111,6 +113,8 @@
                   <fieldColumn>2</fieldColumn>
                   <name><![CDATA[Roepnaam]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -153,6 +157,8 @@
                   <fieldColumn>1</fieldColumn>
                   <name><![CDATA[Tussenvoegsels]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>3</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -188,6 +194,8 @@
                   <fieldColumn>2</fieldColumn>
                   <name><![CDATA[Achternaam]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -230,6 +238,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Omschrijving]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>textBox</type>
                   <maxLength>
@@ -262,6 +272,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -297,6 +309,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Verloopdatum]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>calendar</type>
                   <maxLength>
@@ -352,6 +366,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Tags]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>compareList</type>
                   <maxLength>
@@ -410,6 +426,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Groups]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>4</sequence>
                   <type>compareList</type>
                   <maxLength>
@@ -455,6 +473,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>5</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -480,6 +500,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Volgende]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>nextButton</type>
                   <maxLength>
@@ -1024,6 +1046,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Alle gegevens]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>1</sequence>
                   <type>showInstanceVariables</type>
                   <maxLength>
@@ -1049,6 +1073,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Spacer]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>2</sequence>
                   <type>spacer</type>
                   <maxLength>
@@ -1074,6 +1100,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Terug]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>6</sequence>
                   <type>backButton</type>
                   <maxLength>
@@ -1099,6 +1127,8 @@
                   <fieldColumn>0</fieldColumn>
                   <name><![CDATA[Bevestigen en toepassen]]></name>
                   <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
                   <sequence>7</sequence>
                   <type>saveButton</type>
                   <maxLength>
