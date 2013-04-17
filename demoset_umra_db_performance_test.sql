@@ -1,32 +1,52 @@
--- all ObjectAttributes for latest snapshot
 SELECT * FROM fnSnapshot_objectattributes_get(0,NULL)
--- all Objects for latest snapshot
 SELECT * FROM fnSnapshot_objects_get(0,NULL,NULL)
--- all cache records for 'user' objects
 SELECT * FROM fnCache_get('user')
--- all nested relationships for all objects in latest snapshot
-SELECT * FROM fnSnapshot_relationships_get(1,0,NULL,NULL,NULL)
--- all objects in tag ID=1
+SELECT * FROM fnSnapshot_relationships_get(0,0,NULL,NULL,NULL)
 SELECT * FROM fnTag_objects_get(1,NULL,1,0)
--- all objects from latest snapshot where pers_nr=employeeID
 SELECT * FROM fnSnapshot_objects_get_attribute_related(0,'pers_nr','employeeID',NULL,NULL)
--- all tags where is_active = true
 SELECT * FROM fnTags_get(1,NULL,NULL)
--- all objects in tags where is_active = true
-SELECT * FROM fnTags_objects_get(NULL,1,0)
--- all relationships between objects in tags where is_active = true
-SELECT * FROM fnTags_relationships_get(1,0,NULL,NULL)
--- relationship report on AD on attributes department + title
+SELECT * FROM fnTags_get(1,'default',NULL)
+SELECT * FROM fnTags_get(0,NULL,NULL)
+SELECT * FROM fnTags_objects_get(NULL,1,1,1)
+SELECT * FROM fnTags_objects_get(NULL,1,1,0)
+SELECT * FROM fnTags_objects_get(NULL,1,0,0)
+SELECT * FROM fnTags_relationships_get(1,1,1,'group','user')
+SELECT * FROM fnTags_relationships_get(1,1,0,'group','user')
+SELECT * FROM fnTags_relationships_get(1,0,0,'group','user')
+SELECT * FROM fnTags_relationships_get(0,0,0,'group','user')
 EXEC spSnapshot_table_relationships_report 'department,title'
--- tag relationships not present in AD
 EXEC spTags_relationships_snapshot_left
--- tag relationship matches in AD
 EXEC spTags_relationships_snapshot_common
--- tag relationships deactivated, still present in AD
 EXEC spTags_relationships_snapshot_right
--- group memberships in AD not present in any tag relationship
 EXEC spTags_relationships_snapshot_right_all
--- all user objects with tag timers on tag ID=1
 EXEC spTag_objects_timer_get 1, 'user'
--- all user objects with tag timers on all tags
 EXEC spTags_objects_timer_get 'user'
+EXEC spTags_objects_left NULL,'default',NULL
+EXEC spTags_objects_common NULL,'default',NULL
+EXEC spTags_objects_right NULL,'default',NULL
+EXEC spTags_objects_timer_get NULL,NULL,NULL,NULL
+EXEC spTags_table_objects NULL,1,1,0
+EXEC spTags_table_objects NULL,1,1,1
+EXEC spTags_table_objects NULL,1,0,0
+EXEC spTags_table_objects NULL,1,0,1
+EXEC spTags_table_objects NULL,0,0,0
+EXEC spTag_permissions_get 1,NULL,NULL,NULL,NULL
+EXEC spTag_table_users 1,1,0
+EXEC spTag_table_users 1,0,0
+EXEC spTag_table_groups 1,1,0
+EXEC spTag_table_groups 1,0,0
+EXEC spTag_table_groups_exclusive 1,'mvandijk',1,0
+EXEC spTag_table_groups_exclusive 1,'mvandijk',0,0
+EXEC spSnapshot_attributes_get
+EXEC spSnapshot_objects_get_details NULL
+EXEC spSnapshot_relationships_get_details NULL
+EXEC spSnapshot_sources_get
+EXEC spSnapshot_table_group_attributes_managedby_users 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local',NULL,NULL,NULL
+EXEC spSnapshot_table_object_member_groups_nested 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local',NULL
+EXEC spSnapshot_table_snapshot_manager_group_users 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local','CN=GG_APP_MicrosoftProject,OU=Applications,OU=Groups,OU=Organisation,DC=wfm,DC=local',NULL,NULL,NULL
+EXEC spSnapshot_table_snapshot_manager_groups_costs 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local','info',NULL
+EXEC spSnapshot_table_user_attributes_groups_managedby 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local',NULL,NULL,NULL
+EXEC spSnapshot_table_user_attributes_groups_managedby 'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local'
+EXEC spSnapshot_types_get
+EXEC spSnapshots_get
+EXEC spTags_get 1,NULL,NULL,NULL,'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local'
