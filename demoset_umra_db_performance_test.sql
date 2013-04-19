@@ -31,12 +31,14 @@ EXEC spTags_table_objects NULL,1,0,0
 EXEC spTags_table_objects NULL,1,0,1
 EXEC spTags_table_objects NULL,0,0,0
 EXEC spTag_permissions_get 1,NULL,NULL,NULL,NULL
+EXEC spTags_permissions_get 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local'
 EXEC spTag_table_users 1,1,0
 EXEC spTag_table_users 1,0,0
 EXEC spTag_table_groups 1,1,0
 EXEC spTag_table_groups 1,0,0
-EXEC spTag_table_groups_exclusive 1,'mvandijk',1,0
-EXEC spTag_table_groups_exclusive 1,'mvandijk',0,0
+EXEC spTag_table_groups_exclusive 1,'mvandijk',1,1,0
+EXEC spTag_table_groups_exclusive 1,'mvandijk',0,0,0
+EXEC spTag_table_groups_exclusive 1,'mvandijk'
 EXEC spSnapshot_attributes_get
 EXEC spSnapshot_objects_get_details NULL
 EXEC spSnapshot_relationships_get_details NULL
