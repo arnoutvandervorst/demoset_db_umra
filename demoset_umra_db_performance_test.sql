@@ -24,7 +24,7 @@ EXEC spTags_objects_timer_get 'user'
 EXEC spTags_objects_left NULL,'default',NULL
 EXEC spTags_objects_common NULL,'default',NULL
 EXEC spTags_objects_right NULL,'default',NULL
-EXEC spTags_objects_timer_get NULL,NULL,NULL,NULL
+EXEC spTags_objects_timer_get
 EXEC spTags_table_objects NULL,1,1,0
 EXEC spTags_table_objects NULL,1,1,1
 EXEC spTags_table_objects NULL,1,0,0
