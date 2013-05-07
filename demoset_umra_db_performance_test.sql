@@ -1,3 +1,8 @@
+DECLARE @id_snapshot bigint
+SET @id_snapshot = (SELECT MAX(id) FROM Snapshots)
+DECLARE @id_snapshot_delta bigint
+SET @id_snapshot_delta = (SELECT MIN(id) FROM Snapshots)
+
 SELECT * FROM fnSnapshot_objectattributes_get(0,NULL)
 SELECT * FROM fnSnapshot_objects_get(0,NULL,NULL)
 SELECT * FROM fnCache_get('user')
@@ -15,6 +20,9 @@ SELECT * FROM fnTags_relationships_get(1,1,0,'group','user')
 SELECT * FROM fnTags_relationships_get(1,0,0,'group','user')
 SELECT * FROM fnTags_relationships_get(0,0,0,'group','user')
 EXEC spSnapshot_table_relationships_report 'department,title'
+EXEC spSnapshot_relationships_get_delta @id_snapshot, @id_snapshot_delta
+EXEC spSnapshot_objects_get_delta @id_snapshot, @id_snapshot_delta
+EXEC spSnapshot_objects_search 0,'sAMAccountName','mvandijk'
 EXEC spTags_relationships_snapshot_left
 EXEC spTags_relationships_snapshot_common
 EXEC spTags_relationships_snapshot_right
