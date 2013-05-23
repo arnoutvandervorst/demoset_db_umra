@@ -2,7 +2,7 @@
 <workflow>
   <id>54</id>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Een los Active Directory account achteraf aan HRM koppelen: vult het employeeID veld]]></description>
   <name><![CDATA[Account koppelen aan HRM]]></name>
   <sequence>2</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>10</id>
     <name><![CDATA[Gebruikers]]></name>
-    <sequence>2</sequence>
+    <sequence>1</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -60,7 +60,7 @@
           <workflowLayerID>212</workflowLayerID>
           <umraVariable>
             <id>539</id>
-            <name><![CDATA[%Table_users_filter_ldap%]]></name>
+            <name><![CDATA[%Table_objects_filter_ldap%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[(!employeeID=*)]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
@@ -79,7 +79,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_users_filter_ldap%]]></name>
+          <name><![CDATA[%Table_objects_filter_ldap%]]></name>
           <description><![CDATA[]]></description>
           <sequence>4</sequence>
           <type>setVariable</type>
@@ -209,8 +209,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
                     <id>541</id>
@@ -237,8 +236,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
+                  <nextActivityID>2111</nextActivityID>
                   <visible>True</visible>
                 </field>
                 <field>
@@ -266,7 +264,7 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
                 <field>
                   <id>874</id>
@@ -292,7 +290,7 @@
                   <helpTextPart>
                   </helpTextPart>
                   <nextActivityID>2111</nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
               </fields>
             </fieldSet>
@@ -560,7 +558,7 @@
                   <fieldsetID>242</fieldsetID>
                   <umraVariable>
                     <id>544</id>
-                    <name><![CDATA[%Table_hrm_employee_selected%]]></name>
+                    <name><![CDATA[%Table_hrm_employees_selected%]]></name>
                     <displayName><![CDATA[Geselecteerde medewerker]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
@@ -903,7 +901,7 @@
           <workflowLayerID>215</workflowLayerID>
           <umraVariable>
             <id>544</id>
-            <name><![CDATA[%Table_hrm_employee_selected%]]></name>
+            <name><![CDATA[%Table_hrm_employees_selected%]]></name>
             <displayName><![CDATA[Geselecteerde medewerker]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>

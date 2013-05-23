@@ -2,7 +2,7 @@
 <workflow>
   <id>55</id>
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Genereer en bekijk rapportages over diverse Active Directory analyses]]></description>
   <name><![CDATA[Active Directory rapportages]]></name>
   <sequence>3</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>11</id>
     <name><![CDATA[Rapportage]]></name>
-    <sequence>3</sequence>
+    <sequence>5</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

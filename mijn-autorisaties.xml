@@ -2,7 +2,7 @@
 <workflow>
   <id>68</id>
   <adGroupName><![CDATA[everyone]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Beheer wie toegang heeft tot de autorisaties in uw kluis, de wijzigingen zijn direct in het netwerk actief]]></description>
   <name><![CDATA[Mijn autorisaties]]></name>
   <sequence>16</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>1</sequence>
+    <sequence>4</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -271,8 +271,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
+                  <nextActivityID>2440</nextActivityID>
                   <visible>True</visible>
                 </field>
                 <field>

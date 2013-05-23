@@ -2,7 +2,7 @@
 <workflow>
   <id>74</id>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Een nieuwe Active Directory groep aanmaken in een gekozen locatie]]></description>
   <name><![CDATA[Nieuwe groep aanmaken]]></name>
   <sequence>22</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>12</id>
     <name><![CDATA[Groepen]]></name>
-    <sequence>4</sequence>
+    <sequence>2</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -682,7 +682,7 @@
           <umraVariable>
             <id>634</id>
             <name><![CDATA[%cn%]]></name>
-            <displayName><![CDATA[]]></displayName>
+            <displayName><![CDATA[CN]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
             <type>string</type>

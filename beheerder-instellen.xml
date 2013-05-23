@@ -2,7 +2,7 @@
 <workflow>
   <id>57</id>
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Stel een beheerder (persoon of groep) in op een Active Directory groep]]></description>
   <name><![CDATA[Beheerder instellen]]></name>
   <sequence>5</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>12</id>
     <name><![CDATA[Groepen]]></name>
-    <sequence>4</sequence>
+    <sequence>2</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

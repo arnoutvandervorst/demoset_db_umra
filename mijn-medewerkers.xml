@@ -2,7 +2,7 @@
 <workflow>
   <id>71</id>
   <adGroupName><![CDATA[GG_WFM_Management]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Beheer de toegang en status van de medewerkers waar ik volgens HRM leidinggevende van ben]]></description>
   <name><![CDATA[Mijn medewerkers]]></name>
   <sequence>19</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>1</sequence>
+    <sequence>4</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -295,8 +295,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
+                  <nextActivityID>2500</nextActivityID>
                   <visible>True</visible>
                 </field>
                 <field>

@@ -2,7 +2,7 @@
 <workflow>
   <id>76</id>
   <adGroupName><![CDATA[GG_WFM_Management]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Genereer een overzicht van het verbruik van resources binnen mijn HRM management scope en laat hier de totale kosten van zien]]></description>
   <name><![CDATA[Overzicht autorisaties en kosten]]></name>
   <sequence>24</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>1</sequence>
+    <sequence>4</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

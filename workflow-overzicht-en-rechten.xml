@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <workflow>
-  <id>96</id>
-  <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
-  <description><![CDATA[Genereer en bekijk de rapportage van de interne UMRA log van uitgevoerde opdrachten]]></description>
-  <name><![CDATA[Audit rapportage]]></name>
-  <sequence>4</sequence>
+  <id>104</id>
+  <adGroupName><![CDATA[UMRA_Beheer]]></adGroupName>
+  <description><![CDATA[]]></description>
+  <name><![CDATA[Workflow overzicht en rechten]]></name>
+  <sequence>44</sequence>
   <visible>True</visible>
-  <workflowIcon>79.png</workflowIcon>
+  <workflowIcon>38.png</workflowIcon>
   <category>
     <id>11</id>
     <name><![CDATA[Rapportage]]></name>
@@ -14,16 +14,16 @@
   </category>
   <workflowLayers>
     <workflowLayer>
-      <id>409</id>
-      <workflowID>96</workflowID>
-      <name><![CDATA[main]]></name>
+      <id>449</id>
+      <workflowID>104</workflowID>
+      <name><![CDATA[1-main]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
       <activities>
         <activity>
-          <id>3450</id>
-          <workflowLayerID>409</workflowLayerID>
+          <id>3847</id>
+          <workflowLayerID>449</workflowLayerID>
           <umraVariable>
             <id>502</id>
             <name><![CDATA[Execute UMRA script]]></name>
@@ -56,14 +56,38 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3451</id>
-          <workflowLayerID>409</workflowLayerID>
+          <id>3848</id>
+          <workflowLayerID>449</workflowLayerID>
           <umraVariable>
-            <id>902</id>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[set all]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>2</sequence>
+          <type>setInstanceVariables</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
+          <id>3849</id>
+          <workflowLayerID>449</workflowLayerID>
+          <umraVariable>
+            <id>990</id>
             <name><![CDATA[Execute UMRA script]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
-            <umraScript><![CDATA[function-generate-table-log]]></umraScript>
+            <umraScript><![CDATA[function-generate-table-wfm-workflows]]></umraScript>
             <type>script</type>
             <isRepositoryVariable>False</isRepositoryVariable>
             <repositoryUmraScriptVariable>
@@ -79,9 +103,9 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[function-generate-table-log]]></name>
+          <name><![CDATA[function-generate-table-wfm-workflows]]></name>
           <description><![CDATA[]]></description>
-          <sequence>2</sequence>
+          <sequence>3</sequence>
           <type>executeScript</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -90,11 +114,11 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3452</id>
-          <workflowLayerID>409</workflowLayerID>
+          <id>3850</id>
+          <workflowLayerID>449</workflowLayerID>
           <umraVariable>
-            <id>903</id>
-            <name><![CDATA[%Table_log%]]></name>
+            <id>991</id>
+            <name><![CDATA[%table_wfm_workflows%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
@@ -113,9 +137,9 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_log%]]></name>
+          <name><![CDATA[%table_wfm_workflows%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>3</sequence>
+          <sequence>4</sequence>
           <type>getTableVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -124,8 +148,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3453</id>
-          <workflowLayerID>409</workflowLayerID>
+          <id>3851</id>
+          <workflowLayerID>449</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
@@ -137,39 +161,40 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-main]]></name>
+          <name><![CDATA[form]]></name>
           <description><![CDATA[]]></description>
-          <sequence>4</sequence>
+          <sequence>5</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
           <visible>True</visible>
           <fieldSets>
             <fieldSet>
-              <id>467</id>
-              <activityID>3453</activityID>
-              <name><![CDATA[Audit rapportage]]></name>
+              <id>526</id>
+              <activityID>3851</activityID>
+              <name><![CDATA[Overzicht]]></name>
               <description><![CDATA[]]></description>
               <sequence>1</sequence>
               <visible>True</visible>
               <fields>
                 <field>
-                  <id>1646</id>
-                  <fieldsetID>467</fieldsetID>
+                  <id>1849</id>
+                  <fieldsetID>526</fieldsetID>
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Log]]></name>
+                  <name><![CDATA[workflows]]></name>
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>tableLockedGridView</type>
-                  <maxLength>25</maxLength>
+                  <maxLength>
+                  </maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
-                    <id>903</id>
-                    <name><![CDATA[%Table_log%]]></name>
+                    <id>991</id>
+                    <name><![CDATA[%table_wfm_workflows%]]></name>
                     <displayName><![CDATA[]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>

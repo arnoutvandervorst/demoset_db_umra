@@ -2,7 +2,7 @@
 <workflow>
   <id>70</id>
   <adGroupName><![CDATA[everyone]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Pas mijn eigen basisgegevens aan]]></description>
   <name><![CDATA[Mijn gegevens]]></name>
   <sequence>18</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>1</sequence>
+    <sequence>4</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

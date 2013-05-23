@@ -10,7 +10,7 @@
   <category>
     <id>10</id>
     <name><![CDATA[Gebruikers]]></name>
-    <sequence>2</sequence>
+    <sequence>1</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -73,8 +73,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
                     <id>565</id>
@@ -111,8 +110,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
+                  <nextActivityID>2672</nextActivityID>
                   <visible>True</visible>
                 </field>
                 <field>
@@ -140,7 +138,7 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
                 <field>
                   <id>1147</id>
@@ -166,7 +164,7 @@
                   <helpTextPart>
                   </helpTextPart>
                   <nextActivityID>2672</nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
               </fields>
             </fieldSet>

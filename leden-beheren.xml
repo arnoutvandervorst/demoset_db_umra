@@ -2,7 +2,7 @@
 <workflow>
   <id>62</id>
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Beheer de lidmaatschappen van een groep (users of geneste groepen)]]></description>
   <name><![CDATA[Leden beheren]]></name>
   <sequence>10</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>12</id>
     <name><![CDATA[Groepen]]></name>
-    <sequence>4</sequence>
+    <sequence>2</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -73,8 +73,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
                     <id>579</id>
@@ -111,8 +110,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
+                  <nextActivityID>2264</nextActivityID>
                   <visible>True</visible>
                 </field>
                 <field>
@@ -140,7 +138,7 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
                 <field>
                   <id>954</id>
@@ -166,7 +164,7 @@
                   <helpTextPart>
                   </helpTextPart>
                   <nextActivityID>2264</nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
               </fields>
             </fieldSet>

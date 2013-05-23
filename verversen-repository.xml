@@ -2,7 +2,7 @@
 <workflow>
   <id>81</id>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Voer een refresh uit van de interne UMRA repository, deze bevat onder andere informatie uit de Active Directory]]></description>
   <name><![CDATA[Verversen repository]]></name>
   <sequence>29</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>13</id>
     <name><![CDATA[Onderhoud]]></name>
-    <sequence>5</sequence>
+    <sequence>6</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -830,6 +830,50 @@
           </fieldSets>
         </activity>
         <activity>
+          <id>3877</id>
+          <workflowLayerID>322</workflowLayerID>
+          <umraVariable>
+            <id>998</id>
+            <name><![CDATA[%Table_computers_repository%]]></name>
+            <displayName><![CDATA[]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>table</type>
+            <isRepositoryVariable>True</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+              <id>999</id>
+              <name><![CDATA[Execute UMRA script]]></name>
+              <displayName><![CDATA[]]></displayName>
+              <defaultValue><![CDATA[]]></defaultValue>
+              <umraScript><![CDATA[function-generate-table-computers-repository]]></umraScript>
+              <type>script</type>
+              <isRepositoryVariable>False</isRepositoryVariable>
+              <repositoryUmraScriptVariable>
+              </repositoryUmraScriptVariable>
+              <repositoryThreshold>0</repositoryThreshold>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>60</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%Table_computers_repository%]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>20</sequence>
+          <type>refreshRepositoryData</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
           <id>2815</id>
           <workflowLayerID>322</workflowLayerID>
           <umraVariable>
@@ -845,7 +889,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[end]]></name>
           <description><![CDATA[]]></description>
-          <sequence>20</sequence>
+          <sequence>21</sequence>
           <type>instanceClose</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>

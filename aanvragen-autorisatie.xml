@@ -2,7 +2,7 @@
 <workflow>
   <id>53</id>
   <adGroupName><![CDATA[everyone]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Vraag voor uzelf toegang tot een resource aan, de aanvraag wordt na goedkeuring direct uitgevoerd]]></description>
   <name><![CDATA[Aanvragen autorisatie]]></name>
   <sequence>1</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>1</sequence>
+    <sequence>4</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -3565,6 +3565,40 @@
           </fieldSets>
         </activity>
         <activity>
+          <id>4029</id>
+          <workflowLayerID>211</workflowLayerID>
+          <umraVariable>
+            <id>1049</id>
+            <name><![CDATA[Execute UMRA script]]></name>
+            <displayName><![CDATA[]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[global-init-selfservice]]></umraScript>
+            <type>script</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[global-init-selfservice]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>4</sequence>
+          <type>executeScript</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
           <id>2098</id>
           <workflowLayerID>211</workflowLayerID>
           <umraVariable>
@@ -3580,7 +3614,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[set all]]></name>
           <description><![CDATA[]]></description>
-          <sequence>4</sequence>
+          <sequence>5</sequence>
           <type>setInstanceVariables</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3614,7 +3648,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Table_groups_selfservice_default_approval_assignTo%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>9</sequence>
+          <sequence>6</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3648,7 +3682,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Table_groups_selfservice_default_approval_displayName%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>11</sequence>
+          <sequence>7</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3682,7 +3716,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Table_groups_selfservice_default_approval_assignTo%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>14</sequence>
+          <sequence>8</sequence>
           <type>assignInstance</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3716,7 +3750,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Table_groups_selfservice_default_approval_displayName%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>15</sequence>
+          <sequence>9</sequence>
           <type>setInstanceAssignDisplayname</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3750,7 +3784,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[trace manager]]></name>
           <description><![CDATA[]]></description>
-          <sequence>16</sequence>
+          <sequence>10</sequence>
           <type>traceMessage</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3784,7 +3818,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[title autorisatie]]></name>
           <description><![CDATA[]]></description>
-          <sequence>17</sequence>
+          <sequence>11</sequence>
           <type>setInstanceTitle</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -3808,7 +3842,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[form-assign-default]]></name>
           <description><![CDATA[]]></description>
-          <sequence>18</sequence>
+          <sequence>12</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>

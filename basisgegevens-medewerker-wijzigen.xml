@@ -2,7 +2,7 @@
 <workflow>
   <id>56</id>
   <adGroupName><![CDATA[GG_WFM_HRM]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Wijzig basisgegevenz zoals telefoonnummers voor medewerkers]]></description>
   <name><![CDATA[Basisgegevens medewerker wijzigen]]></name>
   <sequence>4</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>1</sequence>
+    <sequence>4</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

@@ -2,7 +2,7 @@
 <workflow>
   <id>88</id>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[Beheer de notificaties die UMRA uitstuurt tijdens het doorvoeren van mutaties]]></description>
   <name><![CDATA[Notificaties beheren]]></name>
   <sequence>30</sequence>
   <visible>True</visible>
@@ -10,7 +10,7 @@
   <category>
     <id>13</id>
     <name><![CDATA[Onderhoud]]></name>
-    <sequence>5</sequence>
+    <sequence>6</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

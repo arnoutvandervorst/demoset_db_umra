@@ -10,7 +10,7 @@
   <category>
     <id>10</id>
     <name><![CDATA[Gebruikers]]></name>
-    <sequence>2</sequence>
+    <sequence>1</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -844,7 +844,7 @@
           <umraVariable>
             <id>634</id>
             <name><![CDATA[%cn%]]></name>
-            <displayName><![CDATA[]]></displayName>
+            <displayName><![CDATA[CN]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
             <type>string</type>

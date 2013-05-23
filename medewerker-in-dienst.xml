@@ -10,7 +10,7 @@
   <category>
     <id>10</id>
     <name><![CDATA[Gebruikers]]></name>
-    <sequence>2</sequence>
+    <sequence>1</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
@@ -175,8 +175,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
                     <id>629</id>
@@ -518,7 +517,7 @@
           <umraVariable>
             <id>634</id>
             <name><![CDATA[%cn%]]></name>
-            <displayName><![CDATA[]]></displayName>
+            <displayName><![CDATA[CN]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
             <type>string</type>
