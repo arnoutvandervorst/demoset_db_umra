@@ -3,7 +3,7 @@ SET @id_snapshot = (SELECT MAX(id) FROM Snapshots)
 DECLARE @id_snapshot_delta bigint
 SET @id_snapshot_delta = (SELECT MIN(id) FROM Snapshots)
 
-SELECT * FROM fnSnapshot_objectattributes_get(0,NULL)
+SELECT * FROM fnSnapshot_objectattributes_get(0,NULL,'')
 SELECT * FROM fnSnapshot_objects_get(0,NULL,NULL)
 SELECT * FROM fnCache_get('user')
 SELECT * FROM fnSnapshot_relationships_get(0,0,NULL,NULL,NULL,NULL,NULL)
