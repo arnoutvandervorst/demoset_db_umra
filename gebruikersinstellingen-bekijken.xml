@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Bekijk alle instellingen van een user account in Active Directory.]]></description>
   <name><![CDATA[Gebruikersinstellingen bekijken]]></name>
-  <sequence>8</sequence>
+  <sequence>4</sequence>
   <visible>True</visible>
   <workflowIcon>37.png</workflowIcon>
   <category>
@@ -112,59 +112,6 @@
                   </helpTextPart>
                   <nextActivityID>2232</nextActivityID>
                   <visible>True</visible>
-                </field>
-                <field>
-                  <id>935</id>
-                  <fieldsetID>262</fieldsetID>
-                  <umraVariable>
-                  </umraVariable>
-                  <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Spacer]]></name>
-                  <description><![CDATA[]]></description>
-                  <validationGroup>
-                  </validationGroup>
-                  <sequence>2</sequence>
-                  <type>spacer</type>
-                  <maxLength>
-                  </maxLength>
-                  <tooltip><![CDATA[]]></tooltip>
-                  <defaultValueUmraVariable>
-                  </defaultValueUmraVariable>
-                  <validator>
-                  </validator>
-                  <textPart>
-                  </textPart>
-                  <helpTextPart>
-                  </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
-                  <visible>False</visible>
-                </field>
-                <field>
-                  <id>936</id>
-                  <fieldsetID>262</fieldsetID>
-                  <umraVariable>
-                  </umraVariable>
-                  <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Volgende]]></name>
-                  <description><![CDATA[]]></description>
-                  <validationGroup>
-                  </validationGroup>
-                  <sequence>3</sequence>
-                  <type>nextButton</type>
-                  <maxLength>
-                  </maxLength>
-                  <tooltip><![CDATA[]]></tooltip>
-                  <defaultValueUmraVariable>
-                  </defaultValueUmraVariable>
-                  <validator>
-                  </validator>
-                  <textPart>
-                  </textPart>
-                  <helpTextPart>
-                  </helpTextPart>
-                  <nextActivityID>2232</nextActivityID>
-                  <visible>False</visible>
                 </field>
               </fields>
             </fieldSet>
@@ -560,7 +507,7 @@
           <type>getTableVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
-          <visible>True</visible>
+          <visible>False</visible>
           <fieldSets>
           </fieldSets>
         </activity>
@@ -670,7 +617,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-view-details]]></name>
+          <name><![CDATA[form-view]]></name>
           <description><![CDATA[]]></description>
           <sequence>21</sequence>
           <type>renderForm</type>
@@ -776,7 +723,7 @@
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[HRM gegevens]]></name>
+                  <name><![CDATA[Details]]></name>
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
@@ -812,7 +759,7 @@
             <fieldSet>
               <id>266</id>
               <activityID>2246</activityID>
-              <name><![CDATA[Autorisaties]]></name>
+              <name><![CDATA[Lidmaatschappen]]></name>
               <description><![CDATA[]]></description>
               <sequence>4</sequence>
               <visible>True</visible>
@@ -823,7 +770,7 @@
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Autorisaties]]></name>
+                  <name><![CDATA[Groups]]></name>
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
@@ -862,7 +809,7 @@
               <name><![CDATA[Alle lidmaatschappen (inclusief nesting)]]></name>
               <description><![CDATA[]]></description>
               <sequence>5</sequence>
-              <visible>True</visible>
+              <visible>False</visible>
               <fields>
                 <field>
                   <id>941</id>
@@ -899,7 +846,7 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
               </fields>
             </fieldSet>

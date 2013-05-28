@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Wijzig de naam en omschrijving van een Active Directory groep]]></description>
   <name><![CDATA[Groep wijzigen & hernoemen]]></name>
-  <sequence>23</sequence>
+  <sequence>6</sequence>
   <visible>True</visible>
   <workflowIcon>55.png</workflowIcon>
   <category>
@@ -112,59 +112,6 @@
                   </helpTextPart>
                   <nextActivityID>3855</nextActivityID>
                   <visible>True</visible>
-                </field>
-                <field>
-                  <id>1851</id>
-                  <fieldsetID>527</fieldsetID>
-                  <umraVariable>
-                  </umraVariable>
-                  <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Spacer]]></name>
-                  <description><![CDATA[]]></description>
-                  <validationGroup>
-                  </validationGroup>
-                  <sequence>2</sequence>
-                  <type>spacer</type>
-                  <maxLength>
-                  </maxLength>
-                  <tooltip><![CDATA[]]></tooltip>
-                  <defaultValueUmraVariable>
-                  </defaultValueUmraVariable>
-                  <validator>
-                  </validator>
-                  <textPart>
-                  </textPart>
-                  <helpTextPart>
-                  </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
-                  <visible>False</visible>
-                </field>
-                <field>
-                  <id>1852</id>
-                  <fieldsetID>527</fieldsetID>
-                  <umraVariable>
-                  </umraVariable>
-                  <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Volgende]]></name>
-                  <description><![CDATA[]]></description>
-                  <validationGroup>
-                  </validationGroup>
-                  <sequence>3</sequence>
-                  <type>nextButton</type>
-                  <maxLength>
-                  </maxLength>
-                  <tooltip><![CDATA[]]></tooltip>
-                  <defaultValueUmraVariable>
-                  </defaultValueUmraVariable>
-                  <validator>
-                  </validator>
-                  <textPart>
-                  </textPart>
-                  <helpTextPart>
-                  </helpTextPart>
-                  <nextActivityID>3855</nextActivityID>
-                  <visible>False</visible>
                 </field>
               </fields>
             </fieldSet>
@@ -320,7 +267,7 @@
           <id>3859</id>
           <workflowLayerID>451</workflowLayerID>
           <umraVariable>
-            <id>992</id>
+            <id>648</id>
             <name><![CDATA[%Table_group_attributes_basic%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
@@ -532,7 +479,7 @@
                   </maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
-                    <id>992</id>
+                    <id>648</id>
                     <name><![CDATA[%Table_group_attributes_basic%]]></name>
                     <displayName><![CDATA[]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>

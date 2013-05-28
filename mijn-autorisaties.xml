@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[everyone]]></adGroupName>
   <description><![CDATA[Beheer wie toegang heeft tot de autorisaties in uw kluis, de wijzigingen zijn direct in het netwerk actief]]></description>
   <name><![CDATA[Mijn autorisaties]]></name>
-  <sequence>16</sequence>
+  <sequence>4</sequence>
   <visible>True</visible>
   <workflowIcon>32.png</workflowIcon>
   <category>
@@ -637,7 +637,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-members]]></name>
+          <name><![CDATA[form-members]]></name>
           <description><![CDATA[]]></description>
           <sequence>15</sequence>
           <type>renderForm</type>
@@ -1304,7 +1304,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_member_add% (users)]]></name>
+          <name><![CDATA[%Table_member_add%]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>copyTableVariableData</type>
@@ -1416,7 +1416,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_member_remove% (users)]]></name>
+          <name><![CDATA[%Table_member_remove%]]></name>
           <description><![CDATA[]]></description>
           <sequence>10</sequence>
           <type>copyTableVariableData</type>

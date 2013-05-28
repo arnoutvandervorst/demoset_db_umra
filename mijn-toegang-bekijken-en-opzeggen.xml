@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[everyone]]></adGroupName>
   <description><![CDATA[Laat mijn toegang tot resources op het netwerk zien, optioneel kan toegang opgezegd worden]]></description>
   <name><![CDATA[Mijn toegang bekijken en opzeggen]]></name>
-  <sequence>20</sequence>
+  <sequence>11</sequence>
   <visible>True</visible>
   <workflowIcon>93.png</workflowIcon>
   <category>
@@ -362,7 +362,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>2579</nextActivityID>
+                  <nextActivityID>2580</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -409,7 +409,7 @@
           <type>executeScript</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
-          <visible>True</visible>
+          <visible>False</visible>
           <fieldSets>
           </fieldSets>
         </activity>

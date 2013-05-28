@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[UMRA_Manager]]></adGroupName>
   <description><![CDATA[]]></description>
   <name><![CDATA[Mijn gedelegeerden]]></name>
-  <sequence>39</sequence>
+  <sequence>15</sequence>
   <visible>True</visible>
   <workflowIcon>32.png</workflowIcon>
   <category>
@@ -1123,33 +1123,6 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
-                </field>
-                <field>
-                  <id>1799</id>
-                  <fieldsetID>508</fieldsetID>
-                  <umraVariable>
-                  </umraVariable>
-                  <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Spacer]]></name>
-                  <description><![CDATA[]]></description>
-                  <validationGroup>
-                  </validationGroup>
-                  <sequence>3</sequence>
-                  <type>spacer</type>
-                  <maxLength>
-                  </maxLength>
-                  <tooltip><![CDATA[]]></tooltip>
-                  <defaultValueUmraVariable>
-                  </defaultValueUmraVariable>
-                  <validator>
-                  </validator>
-                  <textPart>
-                  </textPart>
-                  <helpTextPart>
-                  </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
-                  <visible>False</visible>
                 </field>
                 <field>
                   <id>1800</id>

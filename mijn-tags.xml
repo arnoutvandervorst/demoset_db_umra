@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Management,GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Beheer de toewijzing van tags waar ik eigenaar van ben aan personen]]></description>
   <name><![CDATA[Mijn tags]]></name>
-  <sequence>25</sequence>
+  <sequence>12</sequence>
   <visible>True</visible>
   <workflowIcon>90.png</workflowIcon>
   <category>

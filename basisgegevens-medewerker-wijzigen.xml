@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_HRM]]></adGroupName>
   <description><![CDATA[Wijzig basisgegevenz zoals telefoonnummers voor medewerkers]]></description>
   <name><![CDATA[Basisgegevens medewerker wijzigen]]></name>
-  <sequence>4</sequence>
+  <sequence>3</sequence>
   <visible>True</visible>
   <workflowIcon>41.png</workflowIcon>
   <category>

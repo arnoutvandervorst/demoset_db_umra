@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_HRM]]></adGroupName>
   <description><![CDATA[Nieuwe medewerker uit HRM opvoeren in Active Directory met autorisaties.]]></description>
   <name><![CDATA[Medewerker in dienst]]></name>
-  <sequence>14</sequence>
+  <sequence>3</sequence>
   <visible>True</visible>
   <workflowIcon>33.png</workflowIcon>
   <category>
@@ -950,7 +950,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>2405</nextActivityID>
+                  <nextActivityID>2406</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -1303,7 +1303,7 @@
           <type>executeScript</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
-          <visible>True</visible>
+          <visible>False</visible>
           <fieldSets>
           </fieldSets>
         </activity>

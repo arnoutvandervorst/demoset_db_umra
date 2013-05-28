@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[everyone]]></adGroupName>
   <description><![CDATA[Vraag voor uzelf toegang tot een resource aan, de aanvraag wordt na goedkeuring direct uitgevoerd]]></description>
   <name><![CDATA[Aanvragen autorisatie]]></name>
-  <sequence>1</sequence>
+  <sequence>2</sequence>
   <visible>True</visible>
   <workflowIcon>11.png</workflowIcon>
   <category>

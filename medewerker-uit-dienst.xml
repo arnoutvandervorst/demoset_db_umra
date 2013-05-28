@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_HRM]]></adGroupName>
   <description><![CDATA[Afmeldingsprocedure voor medewerkers uit dienst. Het account van de medewerker in Active Directory wordt gedeactiveerd.]]></description>
   <name><![CDATA[Medewerker uit dienst]]></name>
-  <sequence>15</sequence>
+  <sequence>5</sequence>
   <visible>True</visible>
   <workflowIcon>34.png</workflowIcon>
   <category>

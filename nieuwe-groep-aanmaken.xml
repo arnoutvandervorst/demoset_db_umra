@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Een nieuwe Active Directory groep aanmaken in een gekozen locatie]]></description>
   <name><![CDATA[Nieuwe groep aanmaken]]></name>
-  <sequence>22</sequence>
+  <sequence>5</sequence>
   <visible>True</visible>
   <workflowIcon>52.png</workflowIcon>
   <category>

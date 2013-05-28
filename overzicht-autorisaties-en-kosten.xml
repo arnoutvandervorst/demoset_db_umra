@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Management]]></adGroupName>
   <description><![CDATA[Genereer een overzicht van het verbruik van resources binnen mijn HRM management scope en laat hier de totale kosten van zien]]></description>
   <name><![CDATA[Overzicht autorisaties en kosten]]></name>
-  <sequence>24</sequence>
+  <sequence>13</sequence>
   <visible>True</visible>
   <workflowIcon>79.png</workflowIcon>
   <category>
