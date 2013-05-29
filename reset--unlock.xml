@@ -379,7 +379,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-confirm-reset-unlock]]></name>
+          <name><![CDATA[form-confirm]]></name>
           <description><![CDATA[]]></description>
           <sequence>13</sequence>
           <type>renderForm</type>
@@ -559,7 +559,7 @@
                     <repositoryThreshold>0</repositoryThreshold>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Nieuw wachtwoord]]></name>
+                  <name><![CDATA[Nieuw wachtwoord (eenmalig te gebruiken)]]></name>
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
@@ -581,6 +581,13 @@
                     <repositoryThreshold>0</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
+                    <id>7</id>
+                    <name><![CDATA[Required field validation]]></name>
+                    <requiredField>True</requiredField>
+                    <regularExpressionValidation>False</regularExpressionValidation>
+                    <regularExpression><![CDATA[]]></regularExpression>
+                    <errorMessage><![CDATA[Dit is een verplicht veld]]></errorMessage>
+                    <isDefault>True</isDefault>
                   </validator>
                   <textPart>
                   </textPart>
