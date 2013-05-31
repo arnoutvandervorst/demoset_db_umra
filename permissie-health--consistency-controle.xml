@@ -10,7 +10,7 @@
   <category>
     <id>16</id>
     <name><![CDATA[File-system (NTFS)]]></name>
-    <sequence>8</sequence>
+    <sequence>9</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
