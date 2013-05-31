@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Deactiveer een user account in Active Directory. Het account kan dan niet meer inloggen.]]></description>
   <name><![CDATA[Deactiveren]]></name>
-  <sequence>6</sequence>
+  <sequence>7</sequence>
   <visible>True</visible>
   <workflowIcon>59.png</workflowIcon>
   <category>

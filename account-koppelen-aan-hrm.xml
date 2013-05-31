@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Een los Active Directory account achteraf aan HRM koppelen: vult het employeeID veld]]></description>
   <name><![CDATA[Account koppelen aan HRM]]></name>
-  <sequence>17</sequence>
+  <sequence>18</sequence>
   <visible>True</visible>
   <workflowIcon>74.png</workflowIcon>
   <category>

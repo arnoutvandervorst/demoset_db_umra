@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Groeplidmaatschappen van user accounts in Active Directory toevoegen en verwijderen.]]></description>
   <name><![CDATA[Lidmaatschappen beheren]]></name>
-  <sequence>9</sequence>
+  <sequence>10</sequence>
   <visible>True</visible>
   <workflowIcon>36.png</workflowIcon>
   <category>

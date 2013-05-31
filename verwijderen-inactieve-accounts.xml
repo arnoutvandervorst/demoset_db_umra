@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Verwijdert user accounts die reeds gedeactiveerd zijn. Alle resources van het account worden opgeruimd.]]></description>
   <name><![CDATA[Verwijderen inactieve accounts]]></name>
-  <sequence>7</sequence>
+  <sequence>8</sequence>
   <visible>True</visible>
   <workflowIcon>34.png</workflowIcon>
   <category>

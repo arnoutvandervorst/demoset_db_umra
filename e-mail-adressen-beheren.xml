@@ -4,13 +4,13 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Bekijk en beheer de e-mail adressen voor Exchange mailbox-enabled gebruikers]]></description>
   <name><![CDATA[E-mail adressen beheren]]></name>
-  <sequence>15</sequence>
+  <sequence>1</sequence>
   <visible>True</visible>
   <workflowIcon>4.png</workflowIcon>
   <category>
-    <id>10</id>
-    <name><![CDATA[Gebruikers]]></name>
-    <sequence>1</sequence>
+    <id>18</id>
+    <name><![CDATA[Exchange]]></name>
+    <sequence>10</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>

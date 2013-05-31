@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Toont Active Directory accounts met een verloopdatum, deze kunnen vervolgens verlengd worden]]></description>
   <name><![CDATA[Verloopdatum verlengen]]></name>
-  <sequence>12</sequence>
+  <sequence>13</sequence>
   <visible>True</visible>
   <workflowIcon>16.png</workflowIcon>
   <category>

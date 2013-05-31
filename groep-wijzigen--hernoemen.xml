@@ -671,7 +671,7 @@
                   <umraVariable>
                     <id>995</id>
                     <name><![CDATA[%input_info%]]></name>
-                    <displayName><![CDATA[Info]]></displayName>
+                    <displayName><![CDATA[Notities]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
                     <type>string</type>

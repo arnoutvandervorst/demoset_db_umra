@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Van een brongebruiker kunnen selectief de lidmaatschappen worden overgenomen op een doelgebruiker]]></description>
   <name><![CDATA[Lidmaatschappen overnemen]]></name>
-  <sequence>10</sequence>
+  <sequence>11</sequence>
   <visible>True</visible>
   <workflowIcon>90.png</workflowIcon>
   <category>

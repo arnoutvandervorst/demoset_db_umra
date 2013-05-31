@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Heractiveert een user account wat op inactief staat. Het account kan na deze procedure weer inloggen.]]></description>
   <name><![CDATA[Heractiveren]]></name>
-  <sequence>8</sequence>
+  <sequence>9</sequence>
   <visible>True</visible>
   <workflowIcon>56.png</workflowIcon>
   <category>
