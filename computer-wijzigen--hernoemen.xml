@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <workflow>
-  <id>105</id>
+  <id>127</id>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
-  <description><![CDATA[Wijzig de naam en omschrijving van een Active Directory groep]]></description>
-  <name><![CDATA[Groep wijzigen & hernoemen]]></name>
-  <sequence>6</sequence>
+  <description><![CDATA[Wijzig de naam en omschrijving van een Active Directory computer account]]></description>
+  <name><![CDATA[Computer wijzigen & hernoemen]]></name>
+  <sequence>2</sequence>
   <visible>True</visible>
   <workflowIcon>55.png</workflowIcon>
   <category>
-    <id>12</id>
-    <name><![CDATA[Groepen]]></name>
-    <sequence>2</sequence>
+    <id>19</id>
+    <name><![CDATA[Computers]]></name>
+    <sequence>3</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
-      <id>450</id>
-      <workflowID>105</workflowID>
+      <id>532</id>
+      <workflowID>127</workflowID>
       <name><![CDATA[select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
       <activities>
         <activity>
-          <id>3854</id>
-          <workflowLayerID>450</workflowLayerID>
+          <id>4472</id>
+          <workflowLayerID>532</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
@@ -35,7 +35,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-group]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>1</sequence>
           <type>renderForm</type>
@@ -44,20 +44,20 @@
           <visible>True</visible>
           <fieldSets>
             <fieldSet>
-              <id>527</id>
-              <activityID>3854</activityID>
-              <name><![CDATA[Selecteer een groep]]></name>
+              <id>630</id>
+              <activityID>4472</activityID>
+              <name><![CDATA[Selecteer een computer account]]></name>
               <description><![CDATA[]]></description>
               <sequence>1</sequence>
               <visible>True</visible>
               <fields>
                 <field>
-                  <id>1850</id>
-                  <fieldsetID>527</fieldsetID>
+                  <id>2254</id>
+                  <fieldsetID>630</fieldsetID>
                   <umraVariable>
-                    <id>569</id>
-                    <name><![CDATA[%Table_groups_selected%]]></name>
-                    <displayName><![CDATA[Geselecteerde groep(en)]]></displayName>
+                    <id>1133</id>
+                    <name><![CDATA[%Table_computers_selected%]]></name>
+                    <displayName><![CDATA[Computer account]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
                     <type>table</type>
@@ -67,7 +67,7 @@
                     <repositoryThreshold>0</repositoryThreshold>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Groepen]]></name>
+                  <name><![CDATA[Computers]]></name>
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
@@ -76,19 +76,19 @@
                   <maxLength>20</maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
-                    <id>579</id>
-                    <name><![CDATA[%Table_groups_repository%]]></name>
+                    <id>998</id>
+                    <name><![CDATA[%Table_computers_repository%]]></name>
                     <displayName><![CDATA[]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
                     <type>table</type>
                     <isRepositoryVariable>True</isRepositoryVariable>
                     <repositoryUmraScriptVariable>
-                      <id>578</id>
+                      <id>999</id>
                       <name><![CDATA[Execute UMRA script]]></name>
                       <displayName><![CDATA[]]></displayName>
                       <defaultValue><![CDATA[]]></defaultValue>
-                      <umraScript><![CDATA[function-generate-table-groups-repository]]></umraScript>
+                      <umraScript><![CDATA[function-generate-table-computers-repository]]></umraScript>
                       <type>script</type>
                       <isRepositoryVariable>False</isRepositoryVariable>
                       <repositoryUmraScriptVariable>
@@ -110,7 +110,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>3855</nextActivityID>
+                  <nextActivityID>4473</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -120,16 +120,16 @@
       </activities>
     </workflowLayer>
     <workflowLayer>
-      <id>451</id>
-      <workflowID>105</workflowID>
+      <id>533</id>
+      <workflowID>127</workflowID>
       <name><![CDATA[edit]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
       <activities>
         <activity>
-          <id>3855</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4473</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
             <id>502</id>
             <name><![CDATA[Execute UMRA script]]></name>
@@ -162,12 +162,12 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3856</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4474</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
-            <id>569</id>
-            <name><![CDATA[%Table_groups_selected%]]></name>
-            <displayName><![CDATA[Geselecteerde groep(en)]]></displayName>
+            <id>1133</id>
+            <name><![CDATA[%Table_computers_selected%]]></name>
+            <displayName><![CDATA[Computer account]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
             <type>table</type>
@@ -206,8 +206,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3857</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4475</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
@@ -230,14 +230,14 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3858</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4476</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
-            <id>519</id>
+            <id>1134</id>
             <name><![CDATA[Execute UMRA script]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
-            <umraScript><![CDATA[function-generate-table-group-attributes]]></umraScript>
+            <umraScript><![CDATA[function-generate-table-computer-attributes]]></umraScript>
             <type>script</type>
             <isRepositoryVariable>False</isRepositoryVariable>
             <repositoryUmraScriptVariable>
@@ -253,7 +253,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[function-generate-table-group-attributes]]></name>
+          <name><![CDATA[function-generate-table-computer-attributes]]></name>
           <description><![CDATA[]]></description>
           <sequence>4</sequence>
           <type>executeScript</type>
@@ -264,11 +264,11 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3859</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4477</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
-            <id>648</id>
-            <name><![CDATA[%Table_group_attributes_basic%]]></name>
+            <id>1135</id>
+            <name><![CDATA[%Table_computer_attributes_basic%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
@@ -287,7 +287,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_group_attributes_basic%]]></name>
+          <name><![CDATA[%Table_computer_attributes_basic%]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>getTableVariable</type>
@@ -298,42 +298,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3861</id>
-          <workflowLayerID>451</workflowLayerID>
-          <umraVariable>
-            <id>967</id>
-            <name><![CDATA[%AD_sAMAccountName%]]></name>
-            <displayName><![CDATA[]]></displayName>
-            <defaultValue><![CDATA[]]></defaultValue>
-            <umraScript><![CDATA[]]></umraScript>
-            <type>string</type>
-            <isRepositoryVariable>False</isRepositoryVariable>
-            <repositoryUmraScriptVariable>
-            </repositoryUmraScriptVariable>
-            <repositoryThreshold>0</repositoryThreshold>
-          </umraVariable>
-          <targetUmraVariable>
-          </targetUmraVariable>
-          <conditionTrueActivityID>
-          </conditionTrueActivityID>
-          <conditionFalseActivityID>
-          </conditionFalseActivityID>
-          <nextActivityID>
-          </nextActivityID>
-          <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%AD_sAMAccountName%]]></name>
-          <description><![CDATA[]]></description>
-          <sequence>6</sequence>
-          <type>getVariable</type>
-          <standby>False</standby>
-          <closeInstance>False</closeInstance>
-          <visible>True</visible>
-          <fieldSets>
-          </fieldSets>
-        </activity>
-        <activity>
-          <id>3862</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4479</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
             <id>993</id>
             <name><![CDATA[%AD_cn%]]></name>
@@ -357,6 +323,40 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%AD_cn%]]></name>
           <description><![CDATA[]]></description>
+          <sequence>6</sequence>
+          <type>getVariable</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
+          <id>4478</id>
+          <workflowLayerID>533</workflowLayerID>
+          <umraVariable>
+            <id>967</id>
+            <name><![CDATA[%AD_sAMAccountName%]]></name>
+            <displayName><![CDATA[]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>string</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%AD_sAMAccountName%]]></name>
+          <description><![CDATA[]]></description>
           <sequence>7</sequence>
           <type>getVariable</type>
           <standby>False</standby>
@@ -366,8 +366,42 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3863</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4494</id>
+          <workflowLayerID>533</workflowLayerID>
+          <umraVariable>
+            <id>1138</id>
+            <name><![CDATA[%AD_dNSHostName%]]></name>
+            <displayName><![CDATA[]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>string</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%AD_dNSHostName%]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>8</sequence>
+          <type>getVariable</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
+          <id>4480</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
             <id>520</id>
             <name><![CDATA[%AD_description%]]></name>
@@ -391,7 +425,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%AD_description%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>8</sequence>
+          <sequence>9</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -400,8 +434,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3864</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4481</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
             <id>994</id>
             <name><![CDATA[%AD_info%]]></name>
@@ -425,7 +459,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%AD_info%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>9</sequence>
+          <sequence>10</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -434,8 +468,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3860</id>
-          <workflowLayerID>451</workflowLayerID>
+          <id>4482</id>
+          <workflowLayerID>533</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
@@ -449,23 +483,23 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[form-edit]]></name>
           <description><![CDATA[]]></description>
-          <sequence>10</sequence>
+          <sequence>11</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
           <visible>True</visible>
           <fieldSets>
             <fieldSet>
-              <id>528</id>
-              <activityID>3860</activityID>
+              <id>631</id>
+              <activityID>4482</activityID>
               <name><![CDATA[Overzicht]]></name>
               <description><![CDATA[]]></description>
               <sequence>1</sequence>
               <visible>True</visible>
               <fields>
                 <field>
-                  <id>1853</id>
-                  <fieldsetID>528</fieldsetID>
+                  <id>2255</id>
+                  <fieldsetID>631</fieldsetID>
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
@@ -479,8 +513,8 @@
                   </maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
-                    <id>648</id>
-                    <name><![CDATA[%Table_group_attributes_basic%]]></name>
+                    <id>1135</id>
+                    <name><![CDATA[%Table_computer_attributes_basic%]]></name>
                     <displayName><![CDATA[]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
@@ -503,16 +537,16 @@
               </fields>
             </fieldSet>
             <fieldSet>
-              <id>529</id>
-              <activityID>3860</activityID>
+              <id>632</id>
+              <activityID>4482</activityID>
               <name><![CDATA[Aanpassen]]></name>
               <description><![CDATA[]]></description>
               <sequence>2</sequence>
               <visible>True</visible>
               <fields>
                 <field>
-                  <id>1854</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2256</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                     <id>1013</id>
                     <name><![CDATA[%input_cn%]]></name>
@@ -565,8 +599,8 @@
                   <visible>True</visible>
                 </field>
                 <field>
-                  <id>1855</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2257</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                     <id>996</id>
                     <name><![CDATA[%input_sAMAccountName%]]></name>
@@ -619,8 +653,62 @@
                   <visible>True</visible>
                 </field>
                 <field>
-                  <id>1856</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2263</id>
+                  <fieldsetID>632</fieldsetID>
+                  <umraVariable>
+                    <id>1139</id>
+                    <name><![CDATA[%input_dNSHostName%]]></name>
+                    <displayName><![CDATA[Host-naam]]></displayName>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>string</type>
+                    <isRepositoryVariable>False</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>0</repositoryThreshold>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name><![CDATA[Host-naam (dNSHostName)]]></name>
+                  <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>3</sequence>
+                  <type>textBox</type>
+                  <maxLength>
+                  </maxLength>
+                  <tooltip><![CDATA[]]></tooltip>
+                  <defaultValueUmraVariable>
+                    <id>1138</id>
+                    <name><![CDATA[%AD_dNSHostName%]]></name>
+                    <displayName><![CDATA[]]></displayName>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>string</type>
+                    <isRepositoryVariable>False</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>0</repositoryThreshold>
+                  </defaultValueUmraVariable>
+                  <validator>
+                    <id>7</id>
+                    <name><![CDATA[Required field validation]]></name>
+                    <requiredField>True</requiredField>
+                    <regularExpressionValidation>False</regularExpressionValidation>
+                    <regularExpression><![CDATA[]]></regularExpression>
+                    <errorMessage><![CDATA[Dit is een verplicht veld]]></errorMessage>
+                    <isDefault>True</isDefault>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+                <field>
+                  <id>2258</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                     <id>661</id>
                     <name><![CDATA[%input_description%]]></name>
@@ -638,7 +726,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>3</sequence>
+                  <sequence>4</sequence>
                   <type>textBox</type>
                   <maxLength>
                   </maxLength>
@@ -666,8 +754,8 @@
                   <visible>True</visible>
                 </field>
                 <field>
-                  <id>1857</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2259</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                     <id>995</id>
                     <name><![CDATA[%input_info%]]></name>
@@ -685,7 +773,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>4</sequence>
+                  <sequence>5</sequence>
                   <type>textBox</type>
                   <maxLength>
                   </maxLength>
@@ -713,8 +801,8 @@
                   <visible>True</visible>
                 </field>
                 <field>
-                  <id>1859</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2261</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>0</fieldColumn>
@@ -722,7 +810,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>5</sequence>
+                  <sequence>6</sequence>
                   <type>spacer</type>
                   <maxLength>
                   </maxLength>
@@ -740,8 +828,8 @@
                   <visible>True</visible>
                 </field>
                 <field>
-                  <id>1858</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2260</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>1</fieldColumn>
@@ -749,7 +837,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>6</sequence>
+                  <sequence>7</sequence>
                   <type>backButton</type>
                   <maxLength>
                   </maxLength>
@@ -767,8 +855,8 @@
                   <visible>True</visible>
                 </field>
                 <field>
-                  <id>1860</id>
-                  <fieldsetID>529</fieldsetID>
+                  <id>2262</id>
+                  <fieldsetID>632</fieldsetID>
                   <umraVariable>
                   </umraVariable>
                   <fieldColumn>2</fieldColumn>
@@ -776,7 +864,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>7</sequence>
+                  <sequence>8</sequence>
                   <type>saveButton</type>
                   <maxLength>
                   </maxLength>
@@ -789,7 +877,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>3865</nextActivityID>
+                  <nextActivityID>4483</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -799,16 +887,16 @@
       </activities>
     </workflowLayer>
     <workflowLayer>
-      <id>452</id>
-      <workflowID>105</workflowID>
+      <id>534</id>
+      <workflowID>127</workflowID>
       <name><![CDATA[process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
       <activities>
         <activity>
-          <id>3865</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4483</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
             <id>502</id>
             <name><![CDATA[Execute UMRA script]]></name>
@@ -841,8 +929,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3866</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4484</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
@@ -865,14 +953,14 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3867</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4485</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
-            <id>997</id>
+            <id>1140</id>
             <name><![CDATA[Execute UMRA script]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
-            <umraScript><![CDATA[function-group-ad-preprocess-input-form-edit]]></umraScript>
+            <umraScript><![CDATA[function-computer-ad-preprocess-input-form-edit]]></umraScript>
             <type>script</type>
             <isRepositoryVariable>False</isRepositoryVariable>
             <repositoryUmraScriptVariable>
@@ -888,7 +976,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[function-group-ad-preprocess-input-form-edit]]></name>
+          <name><![CDATA[function-computer-ad-preprocess-input-form-edit]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>executeScript</type>
@@ -899,11 +987,11 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3873</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4491</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
-            <id>573</id>
-            <name><![CDATA[%Table_group_attributes_set%]]></name>
+            <id>1141</id>
+            <name><![CDATA[%Table_computer_attributes_set%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
@@ -922,7 +1010,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_group_attributes_set%]]></name>
+          <name><![CDATA[%Table_computer_attributes_set%]]></name>
           <description><![CDATA[]]></description>
           <sequence>4</sequence>
           <type>getTableVariable</type>
@@ -933,11 +1021,11 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3874</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4492</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
-            <id>573</id>
-            <name><![CDATA[%Table_group_attributes_set%]]></name>
+            <id>1141</id>
+            <name><![CDATA[%Table_computer_attributes_set%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
@@ -977,8 +1065,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3875</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4493</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
@@ -1001,14 +1089,14 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3868</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4486</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
-            <id>574</id>
+            <id>1142</id>
             <name><![CDATA[Execute UMRA script]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
-            <umraScript><![CDATA[function-group-ad-set-table-attributes]]></umraScript>
+            <umraScript><![CDATA[function-computer-ad-set-table-attributes]]></umraScript>
             <type>script</type>
             <isRepositoryVariable>False</isRepositoryVariable>
             <repositoryUmraScriptVariable>
@@ -1024,7 +1112,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[function-group-ad-set-table-attributes]]></name>
+          <name><![CDATA[function-computer-ad-set-table-attributes]]></name>
           <description><![CDATA[]]></description>
           <sequence>7</sequence>
           <type>executeScript</type>
@@ -1035,8 +1123,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3870</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4488</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
             <id>525</id>
             <name><![CDATA[%Status_operation%]]></name>
@@ -1069,8 +1157,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3869</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4487</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
             <id>552</id>
             <name><![CDATA[%Status_executed%]]></name>
@@ -1103,8 +1191,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3871</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4489</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
             <id>551</id>
             <name><![CDATA[%Trace_executed%]]></name>
@@ -1137,8 +1225,8 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>3872</id>
-          <workflowLayerID>452</workflowLayerID>
+          <id>4490</id>
+          <workflowLayerID>534</workflowLayerID>
           <umraVariable>
           </umraVariable>
           <targetUmraVariable>
