@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Wachtwoord reset & unlock account]]></description>
   <name><![CDATA[Reset & unlock]]></name>
-  <sequence>12</sequence>
+  <sequence>13</sequence>
   <visible>True</visible>
   <workflowIcon>43.png</workflowIcon>
   <category>

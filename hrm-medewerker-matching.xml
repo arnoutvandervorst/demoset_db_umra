@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description><![CDATA[Vind een match tussen een HRM medewerker en een Active Directory account. Het formulier laat de beste overeenkomsten per medewerker zien]]></description>
   <name><![CDATA[HRM medewerker matching]]></name>
-  <sequence>17</sequence>
+  <sequence>16</sequence>
   <visible>True</visible>
   <workflowIcon>75.png</workflowIcon>
   <category>

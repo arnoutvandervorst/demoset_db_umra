@@ -4,7 +4,7 @@
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
   <description><![CDATA[Tonen en wijzigen van het "employeeID" veld in Active Directory]]></description>
   <name><![CDATA[Aanpassen employeeID]]></name>
-  <sequence>19</sequence>
+  <sequence>18</sequence>
   <visible>True</visible>
   <workflowIcon>88.png</workflowIcon>
   <category>
