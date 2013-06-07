@@ -3,15 +3,15 @@ SET @id_snapshot = (SELECT MAX(id) FROM Snapshots)
 DECLARE @id_snapshot_delta bigint
 SET @id_snapshot_delta = (SELECT MIN(id) FROM Snapshots)
 
-SELECT * FROM fnSnapshot_objectattributes_get(0,NULL,'')
-SELECT * FROM fnSnapshot_objects_get(0,NULL,NULL)
+SELECT * FROM fnSnapshot_objectattributes_get(default,default,default)
+SELECT * FROM fnSnapshot_objects_get(default,default,default)
 SELECT * FROM fnCache_get('user')
-SELECT * FROM fnSnapshot_relationships_get(0,0,NULL,NULL,NULL,NULL,NULL)
-SELECT * FROM fnTag_objects_get(1,NULL,1,0)
-SELECT * FROM fnSnapshot_objects_get_attribute_related(0,'pers_nr','employeeID',NULL,NULL)
-SELECT * FROM fnTags_get(1,NULL,NULL)
-SELECT * FROM fnTags_get(1,'default',NULL)
-SELECT * FROM fnTags_get(0,NULL,NULL)
+SELECT * FROM fnSnapshot_relationships_get(default,default,default,default,default,default,default)
+SELECT * FROM fnTag_objects_get(default,default,default,default)
+SELECT * FROM fnTags_get(default,default,default)
+SELECT * FROM fnTags_get(default,'default',default)
+SELECT * FROM fnTags_get(0,default,default)
+SELECT * FROM fnTags_get(0,default,'application')
 SELECT * FROM fnTags_objects_get(NULL,1,1,1)
 SELECT * FROM fnTags_objects_get(NULL,1,1,0)
 SELECT * FROM fnTags_objects_get(NULL,1,0,0)
@@ -40,6 +40,7 @@ EXEC spTags_table_objects NULL,1,0,1
 EXEC spTags_table_objects NULL,0,0,0
 EXEC spTag_permissions_get 1,NULL,NULL,NULL,NULL
 EXEC spTags_permissions_get 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local'
+EXEC spTags_permissions_get 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local','owner'
 EXEC spTag_table_users 1,1,0
 EXEC spTag_table_users 1,0,0
 EXEC spTag_table_groups 1,1,0

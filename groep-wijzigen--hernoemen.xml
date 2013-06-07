@@ -1137,6 +1137,50 @@
           </fieldSets>
         </activity>
         <activity>
+          <id>4608</id>
+          <workflowLayerID>452</workflowLayerID>
+          <umraVariable>
+            <id>579</id>
+            <name><![CDATA[%Table_groups_repository%]]></name>
+            <displayName><![CDATA[]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>table</type>
+            <isRepositoryVariable>True</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+              <id>578</id>
+              <name><![CDATA[Execute UMRA script]]></name>
+              <displayName><![CDATA[]]></displayName>
+              <defaultValue><![CDATA[]]></defaultValue>
+              <umraScript><![CDATA[function-generate-table-groups-repository]]></umraScript>
+              <type>script</type>
+              <isRepositoryVariable>False</isRepositoryVariable>
+              <repositoryUmraScriptVariable>
+              </repositoryUmraScriptVariable>
+              <repositoryThreshold>0</repositoryThreshold>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>60</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%Table_groups_repository%]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>11</sequence>
+          <type>refreshRepositoryData</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
           <id>3872</id>
           <workflowLayerID>452</workflowLayerID>
           <umraVariable>
@@ -1152,7 +1196,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[end]]></name>
           <description><![CDATA[]]></description>
-          <sequence>11</sequence>
+          <sequence>12</sequence>
           <type>instanceClose</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
