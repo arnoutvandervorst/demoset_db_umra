@@ -47,9 +47,9 @@ EXEC spTag_table_users 1,1,0
 EXEC spTag_table_users 1,0,0
 EXEC spTag_table_groups 1,1,0
 EXEC spTag_table_groups 1,0,0
-EXEC spTag_table_groups_exclusive 1,'mvandijk',1,1,0
-EXEC spTag_table_groups_exclusive 1,'mvandijk',0,0,0
-EXEC spTag_table_groups_exclusive 1,'mvandijk'
+EXEC spTag_table_groups_exclusive 1,'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local',1,1,0
+EXEC spTag_table_groups_exclusive 1,'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local',0,0,0
+EXEC spTag_table_groups_exclusive 1,'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local'
 EXEC spSnapshot_attributes_get
 EXEC spSnapshot_objects_get_details NULL
 EXEC spSnapshot_relationships_get_details NULL
