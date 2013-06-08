@@ -33,15 +33,13 @@ EXEC spTags_relationships_snapshot_right
 EXEC spTags_relationships_snapshot_right_all
 EXEC spTag_objects_timer_get 1, 'user'
 EXEC spTags_objects_timer_get 'user'
-EXEC spTags_objects_left NULL,'default',NULL
-EXEC spTags_objects_common NULL,'default',NULL
-EXEC spTags_objects_right NULL,'default',NULL
+EXEC spTags_objects_left 'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local',NULL,NULL
+EXEC spTags_objects_common 'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local',NULL,NULL
+EXEC spTags_objects_right 'CN=Marcel van Dijk,OU=website_users,DC=wfm,DC=local',NULL,NULL
 EXEC spTags_objects_timer_get
+EXEC spTags_table_objects
 EXEC spTags_table_objects NULL,1,1,0
 EXEC spTags_table_objects NULL,1,1,1
-EXEC spTags_table_objects NULL,1,0,0
-EXEC spTags_table_objects NULL,1,0,1
-EXEC spTags_table_objects NULL,0,0,0
 EXEC spTag_permissions_get 1,NULL,NULL,NULL,NULL
 EXEC spTags_permissions_get 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local'
 EXEC spTags_permissions_get 'CN=Hans Blom,OU=website_users,DC=wfm,DC=local','owner'
