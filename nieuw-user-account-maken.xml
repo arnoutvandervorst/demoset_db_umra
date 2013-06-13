@@ -437,7 +437,7 @@
                   <umraVariable>
                     <id>655</id>
                     <name><![CDATA[%Table_tags_selected%]]></name>
-                    <displayName><![CDATA[]]></displayName>
+                    <displayName><![CDATA[Geselecteerde tag]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
                     <type>table</type>
@@ -655,7 +655,7 @@
           <umraVariable>
             <id>655</id>
             <name><![CDATA[%Table_tags_selected%]]></name>
-            <displayName><![CDATA[]]></displayName>
+            <displayName><![CDATA[Geselecteerde tag]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
             <type>table</type>

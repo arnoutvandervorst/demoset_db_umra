@@ -6,7 +6,7 @@
   <name><![CDATA[Gebruikersinstellingen bekijken]]></name>
   <sequence>4</sequence>
   <visible>True</visible>
-  <workflowIcon>37.png</workflowIcon>
+  <workflowIcon>7.png</workflowIcon>
   <category>
     <id>10</id>
     <name><![CDATA[Gebruikers]]></name>

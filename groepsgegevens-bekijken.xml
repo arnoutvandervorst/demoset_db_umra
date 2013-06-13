@@ -773,11 +773,58 @@
           <visible>True</visible>
           <fieldSets>
             <fieldSet>
+              <id>746</id>
+              <activityID>4554</activityID>
+              <name><![CDATA[Basisgegevens]]></name>
+              <description><![CDATA[]]></description>
+              <sequence>1</sequence>
+              <visible>True</visible>
+              <fields>
+                <field>
+                  <id>2434</id>
+                  <fieldsetID>746</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name><![CDATA[Attributes]]></name>
+                  <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>1</sequence>
+                  <type>propertyList</type>
+                  <maxLength>
+                  </maxLength>
+                  <tooltip><![CDATA[]]></tooltip>
+                  <defaultValueUmraVariable>
+                    <id>648</id>
+                    <name><![CDATA[%Table_group_attributes_basic%]]></name>
+                    <displayName><![CDATA[]]></displayName>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>table</type>
+                    <isRepositoryVariable>False</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>0</repositoryThreshold>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+              </fields>
+            </fieldSet>
+            <fieldSet>
               <id>644</id>
               <activityID>4554</activityID>
               <name><![CDATA[Opties]]></name>
               <description><![CDATA[]]></description>
-              <sequence>1</sequence>
+              <sequence>2</sequence>
               <visible>True</visible>
               <fields>
                 <field>
@@ -796,53 +843,6 @@
                   </maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
-                  </defaultValueUmraVariable>
-                  <validator>
-                  </validator>
-                  <textPart>
-                  </textPart>
-                  <helpTextPart>
-                  </helpTextPart>
-                  <nextActivityID>
-                  </nextActivityID>
-                  <visible>True</visible>
-                </field>
-              </fields>
-            </fieldSet>
-            <fieldSet>
-              <id>645</id>
-              <activityID>4554</activityID>
-              <name><![CDATA[Active Directory gegevens]]></name>
-              <description><![CDATA[]]></description>
-              <sequence>2</sequence>
-              <visible>True</visible>
-              <fields>
-                <field>
-                  <id>2297</id>
-                  <fieldsetID>645</fieldsetID>
-                  <umraVariable>
-                  </umraVariable>
-                  <fieldColumn>0</fieldColumn>
-                  <name><![CDATA[Attributen]]></name>
-                  <description><![CDATA[]]></description>
-                  <validationGroup>
-                  </validationGroup>
-                  <sequence>2</sequence>
-                  <type>propertyList</type>
-                  <maxLength>
-                  </maxLength>
-                  <tooltip><![CDATA[]]></tooltip>
-                  <defaultValueUmraVariable>
-                    <id>1146</id>
-                    <name><![CDATA[%Table_group_attributes%]]></name>
-                    <displayName><![CDATA[]]></displayName>
-                    <defaultValue><![CDATA[]]></defaultValue>
-                    <umraScript><![CDATA[]]></umraScript>
-                    <type>table</type>
-                    <isRepositoryVariable>False</isRepositoryVariable>
-                    <repositoryUmraScriptVariable>
-                    </repositoryUmraScriptVariable>
-                    <repositoryThreshold>0</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
                   </validator>
@@ -908,7 +908,7 @@
               <activityID>4554</activityID>
               <name><![CDATA[E-mail adressen]]></name>
               <description><![CDATA[]]></description>
-              <sequence>4</sequence>
+              <sequence>3</sequence>
               <visible>True</visible>
               <fields>
                 <field>
@@ -955,7 +955,7 @@
               <activityID>4554</activityID>
               <name><![CDATA[Leden (gebruikers)]]></name>
               <description><![CDATA[]]></description>
-              <sequence>5</sequence>
+              <sequence>4</sequence>
               <visible>True</visible>
               <fields>
                 <field>
@@ -1049,7 +1049,7 @@
               <activityID>4554</activityID>
               <name><![CDATA[Lidmaatschappen (groepen)]]></name>
               <description><![CDATA[]]></description>
-              <sequence>6</sequence>
+              <sequence>5</sequence>
               <visible>True</visible>
               <fields>
                 <field>
@@ -1096,7 +1096,7 @@
               <activityID>4554</activityID>
               <name><![CDATA[Tags]]></name>
               <description><![CDATA[]]></description>
-              <sequence>7</sequence>
+              <sequence>6</sequence>
               <visible>True</visible>
               <fields>
                 <field>
@@ -1117,6 +1117,53 @@
                   <defaultValueUmraVariable>
                     <id>1043</id>
                     <name><![CDATA[%Table_group_attributes_tags_assigned%]]></name>
+                    <displayName><![CDATA[]]></displayName>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>table</type>
+                    <isRepositoryVariable>False</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>0</repositoryThreshold>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+              </fields>
+            </fieldSet>
+            <fieldSet>
+              <id>645</id>
+              <activityID>4554</activityID>
+              <name><![CDATA[Active Directory gegevens]]></name>
+              <description><![CDATA[]]></description>
+              <sequence>7</sequence>
+              <visible>True</visible>
+              <fields>
+                <field>
+                  <id>2297</id>
+                  <fieldsetID>645</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name><![CDATA[Attributen]]></name>
+                  <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>2</sequence>
+                  <type>propertyList</type>
+                  <maxLength>
+                  </maxLength>
+                  <tooltip><![CDATA[]]></tooltip>
+                  <defaultValueUmraVariable>
+                    <id>1146</id>
+                    <name><![CDATA[%Table_group_attributes%]]></name>
                     <displayName><![CDATA[]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>

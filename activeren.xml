@@ -2,11 +2,11 @@
 <workflow>
   <id>61</id>
   <adGroupName><![CDATA[GG_WFM_ServiceDesk]]></adGroupName>
-  <description><![CDATA[Heractiveert een user account wat op inactief staat. Het account kan na deze procedure weer inloggen.]]></description>
-  <name><![CDATA[Heractiveren]]></name>
+  <description><![CDATA[Activeert een user account wat op inactief staat. Het account kan na deze procedure weer inloggen.]]></description>
+  <name><![CDATA[Activeren]]></name>
   <sequence>9</sequence>
   <visible>True</visible>
-  <workflowIcon>56.png</workflowIcon>
+  <workflowIcon>8.png</workflowIcon>
   <category>
     <id>10</id>
     <name><![CDATA[Gebruikers]]></name>

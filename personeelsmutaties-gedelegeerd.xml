@@ -10,7 +10,7 @@
   <category>
     <id>9</id>
     <name><![CDATA[Self-service]]></name>
-    <sequence>5</sequence>
+    <sequence>6</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
