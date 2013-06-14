@@ -6152,11 +6152,11 @@
           <id>2955</id>
           <workflowLayerID>338</workflowLayerID>
           <umraVariable>
-            <id>763</id>
+            <id>1163</id>
             <name><![CDATA[Execute UMRA script]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
-            <umraScript><![CDATA[function-generate-table-tag-permissions]]></umraScript>
+            <umraScript><![CDATA[function-generate-table-tag-permissions-groups]]></umraScript>
             <type>script</type>
             <isRepositoryVariable>False</isRepositoryVariable>
             <repositoryUmraScriptVariable>
@@ -6172,7 +6172,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[function-generate-table-tag-permissions]]></name>
+          <name><![CDATA[function-generate-table-tag-permissions-groups]]></name>
           <description><![CDATA[]]></description>
           <sequence>11</sequence>
           <type>executeScript</type>
@@ -6186,8 +6186,8 @@
           <id>2956</id>
           <workflowLayerID>338</workflowLayerID>
           <umraVariable>
-            <id>760</id>
-            <name><![CDATA[%Table_tag_permissions%]]></name>
+            <id>1164</id>
+            <name><![CDATA[%Table_tag_permissions_groups%]]></name>
             <displayName><![CDATA[]]></displayName>
             <defaultValue><![CDATA[]]></defaultValue>
             <umraScript><![CDATA[]]></umraScript>
@@ -6206,7 +6206,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[%Table_tag_permissions%]]></name>
+          <name><![CDATA[%Table_tag_permissions_groups%]]></name>
           <description><![CDATA[]]></description>
           <sequence>12</sequence>
           <type>getTableVariable</type>
@@ -6271,8 +6271,8 @@
                   </maxLength>
                   <tooltip><![CDATA[]]></tooltip>
                   <defaultValueUmraVariable>
-                    <id>760</id>
-                    <name><![CDATA[%Table_tag_permissions%]]></name>
+                    <id>1164</id>
+                    <name><![CDATA[%Table_tag_permissions_groups%]]></name>
                     <displayName><![CDATA[]]></displayName>
                     <defaultValue><![CDATA[]]></defaultValue>
                     <umraScript><![CDATA[]]></umraScript>
@@ -6415,7 +6415,7 @@
       <name><![CDATA[process-permissions]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
-      <visible>True</visible>
+      <visible>False</visible>
       <activities>
         <activity>
           <id>2941</id>
@@ -6699,7 +6699,7 @@
       <name><![CDATA[confirm-permissions]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
-      <visible>True</visible>
+      <visible>False</visible>
       <activities>
         <activity>
           <id>2949</id>
@@ -7127,7 +7127,7 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
                 <field>
                   <id>1674</id>
@@ -7154,7 +7154,7 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
-                  <visible>True</visible>
+                  <visible>False</visible>
                 </field>
                 <field>
                   <id>1757</id>
@@ -7191,6 +7191,70 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
+                  <visible>False</visible>
+                </field>
+                <field>
+                  <id>2511</id>
+                  <fieldsetID>472</fieldsetID>
+                  <umraVariable>
+                    <id>1165</id>
+                    <name><![CDATA[%Table_tag_permissions_groups_selected%]]></name>
+                    <displayName><![CDATA[]]></displayName>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>table</type>
+                    <isRepositoryVariable>False</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>0</repositoryThreshold>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name><![CDATA[Groups]]></name>
+                  <description><![CDATA[]]></description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>4</sequence>
+                  <type>gridView</type>
+                  <maxLength>
+                  </maxLength>
+                  <tooltip><![CDATA[]]></tooltip>
+                  <defaultValueUmraVariable>
+                    <id>579</id>
+                    <name><![CDATA[%Table_groups_repository%]]></name>
+                    <displayName><![CDATA[]]></displayName>
+                    <defaultValue><![CDATA[]]></defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>table</type>
+                    <isRepositoryVariable>True</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                      <id>578</id>
+                      <name><![CDATA[Execute UMRA script]]></name>
+                      <displayName><![CDATA[]]></displayName>
+                      <defaultValue><![CDATA[]]></defaultValue>
+                      <umraScript><![CDATA[function-generate-table-groups-repository]]></umraScript>
+                      <type>script</type>
+                      <isRepositoryVariable>False</isRepositoryVariable>
+                      <repositoryUmraScriptVariable>
+                      </repositoryUmraScriptVariable>
+                      <repositoryThreshold>0</repositoryThreshold>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>60</repositoryThreshold>
+                  </defaultValueUmraVariable>
+                  <validator>
+                    <id>7</id>
+                    <name><![CDATA[Required field validation]]></name>
+                    <requiredField>True</requiredField>
+                    <regularExpressionValidation>False</regularExpressionValidation>
+                    <regularExpression><![CDATA[]]></regularExpression>
+                    <errorMessage><![CDATA[Dit is een verplicht veld]]></errorMessage>
+                    <isDefault>True</isDefault>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
                   <visible>True</visible>
                 </field>
                 <field>
@@ -7203,7 +7267,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>4</sequence>
+                  <sequence>5</sequence>
                   <type>spacer</type>
                   <maxLength>
                   </maxLength>
@@ -7240,7 +7304,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>5</sequence>
+                  <sequence>6</sequence>
                   <type>radioButtonList</type>
                   <maxLength>
                   </maxLength>
@@ -7294,7 +7358,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>6</sequence>
+                  <sequence>7</sequence>
                   <type>spacer</type>
                   <maxLength>
                   </maxLength>
@@ -7331,7 +7395,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>7</sequence>
+                  <sequence>8</sequence>
                   <type>checkBox</type>
                   <maxLength>
                   </maxLength>
@@ -7358,7 +7422,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>8</sequence>
+                  <sequence>9</sequence>
                   <type>spacer</type>
                   <maxLength>
                   </maxLength>
@@ -7385,7 +7449,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>9</sequence>
+                  <sequence>10</sequence>
                   <type>backButton</type>
                   <maxLength>
                   </maxLength>
@@ -7412,7 +7476,7 @@
                   <description><![CDATA[]]></description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>10</sequence>
+                  <sequence>11</sequence>
                   <type>nextButton</type>
                   <maxLength>
                   </maxLength>
@@ -7456,7 +7520,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-confirm-permissions-delete]]></name>
+          <name><![CDATA[form-manage-permissions-delete]]></name>
           <description><![CDATA[]]></description>
           <sequence>1</sequence>
           <type>renderForm</type>
@@ -8745,6 +8809,50 @@
           </fieldSets>
         </activity>
         <activity>
+          <id>4933</id>
+          <workflowLayerID>429</workflowLayerID>
+          <umraVariable>
+            <id>1165</id>
+            <name><![CDATA[%Table_tag_permissions_groups_selected%]]></name>
+            <displayName><![CDATA[]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>table</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+            <id>915</id>
+            <name><![CDATA[%input_tag_permission_name%]]></name>
+            <displayName><![CDATA[Naam (permissie)]]></displayName>
+            <defaultValue><![CDATA[]]></defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>string</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%input_tag_permission_name%]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>2</sequence>
+          <type>getTableValue_Row_0_Cell_0</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
           <id>3657</id>
           <workflowLayerID>429</workflowLayerID>
           <umraVariable>
@@ -8760,7 +8868,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[set all]]></name>
           <description><![CDATA[]]></description>
-          <sequence>2</sequence>
+          <sequence>3</sequence>
           <type>setInstanceVariables</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -8794,7 +8902,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[function-tag-permission-db-preprocess-input-create]]></name>
           <description><![CDATA[]]></description>
-          <sequence>3</sequence>
+          <sequence>4</sequence>
           <type>executeScript</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -8828,7 +8936,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[function-tag-permission-db-add]]></name>
           <description><![CDATA[]]></description>
-          <sequence>4</sequence>
+          <sequence>5</sequence>
           <type>executeScript</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -8862,7 +8970,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Status_operation%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>5</sequence>
+          <sequence>6</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -8886,7 +8994,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[form-process-permissions-add]]></name>
           <description><![CDATA[]]></description>
-          <sequence>6</sequence>
+          <sequence>7</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
@@ -9286,7 +9394,7 @@
       <name><![CDATA[manage-objects-disable]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
-      <visible>True</visible>
+      <visible>False</visible>
       <activities>
         <activity>
           <id>3680</id>
@@ -9498,7 +9606,7 @@
       <name><![CDATA[process-objects-disable]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
-      <visible>True</visible>
+      <visible>False</visible>
       <activities>
         <activity>
           <id>3682</id>
