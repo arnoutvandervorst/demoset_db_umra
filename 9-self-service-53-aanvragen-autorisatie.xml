@@ -1402,7 +1402,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Kies de autorisaties door deze van de linkerkant naar de rechterkant te verplaatsen.</p>]]></value>
+                            <value><![CDATA[]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -2189,7 +2189,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Bij het versturen van uw aanvraag zal elke eigenaar apart een verzoek tot goedkeuring ontvangen. U kunt de status van deze verzoeken in uw dashboard volgen.</p>]]></value>
+                            <value><![CDATA[<p>When sending this request, each authorization owner will receive an individual approval request. You can track and trace this process in your dashboard.</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -2347,7 +2347,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Deze lijst toont de aanvragen die zullen worden uitgezet wanneer u de aanvraag bevestigt. Elke eigenaar van een autorisatie krijgt afzonderlijk een verzoek tot goedkeuring, u kunt de status ook per autorisatie volgen.</p>]]></value>
+                            <value><![CDATA[<p>This list shows the requests that will be sent upon confirmation. Each authorization owner will receive an individual approval request. You can track and trace this process in your dashboard.</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>

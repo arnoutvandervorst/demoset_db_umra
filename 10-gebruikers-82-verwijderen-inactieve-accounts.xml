@@ -1195,7 +1195,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Weet u zeker dat het geselecteerde account inclusief alle bijbehorende resources kan worden verwijderd?</p>]]></value>
+                            <value><![CDATA[<p>Are you sure you want to deprovision the user account including all of its resources?</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>

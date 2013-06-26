@@ -1058,7 +1058,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Meer informatie]]></value>
+                          <value><![CDATA[More information]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1280,7 +1280,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>De verloopdatum is verplicht voor accounts die buiten het HRM systeem om worden aangemaakt.</p>]]></value>
+                            <value><![CDATA[<p>When creating unlinked user accounts, the expiration date is required.</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -2732,7 +2732,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3440,7 +3440,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Attributen]]></value>
+                          <value><![CDATA[Attributes]]></value>
                         </language>
                       </languages>
                     </translationObject>

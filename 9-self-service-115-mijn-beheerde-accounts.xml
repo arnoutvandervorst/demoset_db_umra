@@ -354,7 +354,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-main]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>11</sequence>
           <type>renderForm</type>
@@ -639,7 +639,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>2500</nextActivityID>
+                  <nextActivityID>4053</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -1383,7 +1383,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Meer informatie]]></value>
+                          <value><![CDATA[More information]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3898,7 +3898,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -4606,7 +4606,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Attributen]]></value>
+                          <value><![CDATA[Attributes]]></value>
                         </language>
                       </languages>
                     </translationObject>

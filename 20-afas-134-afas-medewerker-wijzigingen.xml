@@ -27,7 +27,7 @@
         </language>
         <language>
           <code>usa</code>
-          <value><![CDATA[Toont de wijzigingen in dienstverbanden die recent zijn aangebracht in AFAS of wijzigingen die in de nabije toekomst in zullen gaan]]></value>
+          <value><![CDATA[View the recent and immediate future contract changes for AFAS employees matched to Active Directory user accounts]]></value>
         </language>
       </languages>
     </translationObject>
@@ -522,7 +522,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Volgende]]></value>
+                          <value><![CDATA[Next]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1487,7 +1487,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2195,7 +2195,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Attributen]]></value>
+                          <value><![CDATA[Attributes]]></value>
                         </language>
                       </languages>
                     </translationObject>

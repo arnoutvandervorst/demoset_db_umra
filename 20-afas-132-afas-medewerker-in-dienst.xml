@@ -27,7 +27,7 @@
         </language>
         <language>
           <code>usa</code>
-          <value><![CDATA[Maak een Active Directory user account aan voor een AFAS medewerker met een actief dienstverband]]></value>
+          <value><![CDATA[Create an Active Directory user account for an AFAS employee with a valid and active contract]]></value>
         </language>
       </languages>
     </translationObject>
@@ -521,7 +521,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Volgende]]></value>
+                          <value><![CDATA[Next]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1178,7 +1178,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2568,7 +2568,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2620,7 +2620,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Volgende]]></value>
+                          <value><![CDATA[Next]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2741,7 +2741,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Alle gegevens]]></value>
+                          <value><![CDATA[All information]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2845,7 +2845,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2897,7 +2897,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Bevestigen en toepassen]]></value>
+                          <value><![CDATA[Confirm and apply]]></value>
                         </language>
                       </languages>
                     </translationObject>

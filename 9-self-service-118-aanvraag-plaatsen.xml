@@ -428,7 +428,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Met dit formulier kunt u een aanvraag plaatsen die vervolgens bij de helpdesk zal worden aangeboden ter goedkeuring.</p>]]></value>
+                            <value><![CDATA[<p>This form allows you to send a generic request which will be approved and processed by the service desk.</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>

@@ -1197,9 +1197,9 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>De volgende handelingen zullen op het account worden uitgevoerd:</p>
-<p>1. Het account wordt geactiveerd en unlocked</p>
-<p>2. De omschrijving wordt leeg gemaakt</p>]]></value>
+                            <value><![CDATA[<p>Are you sure you want to execute the following procedure:</p>
+<p>1. Activate and unlock the user account</p>
+<p>2. Clear the current description</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>

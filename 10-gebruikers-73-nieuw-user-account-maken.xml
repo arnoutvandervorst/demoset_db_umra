@@ -818,7 +818,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>De verloopdatum is verplicht voor accounts die buiten het HRM systeem om worden aangemaakt.</p>]]></value>
+                            <value><![CDATA[<p>When creating unlinked user accounts, the expiration date is required.</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -1241,7 +1241,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Kies de autorisaties door deze van de linkerkant naar de rechterkant te verplaatsen.</p>]]></value>
+                            <value><![CDATA[]]></value>
                           </language>
                         </languages>
                       </translationObject>

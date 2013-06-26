@@ -310,6 +310,109 @@
                   <nextActivityID>4193</nextActivityID>
                   <visible>True</visible>
                 </field>
+                <field>
+                  <id>2573</id>
+                  <fieldsetID>579</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Spacer]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[Spacer]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>2</sequence>
+                  <type>spacer</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+                <field>
+                  <id>2574</id>
+                  <fieldsetID>579</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Volgende]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[Next]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>3</sequence>
+                  <type>nextButton</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>4193</nextActivityID>
+                  <visible>True</visible>
+                </field>
               </fields>
             </fieldSet>
           </fieldSets>
@@ -1386,9 +1489,9 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p><span style="font-size: medium;"><strong><span style="color: #ff0000;">Dit formulier mag alleen gebruikt worden wanneer de gebruiker aanwezig is op de helpdeskafdeling met personeelspas en legitimatie!</span></strong></span></p>
+                            <value><![CDATA[<p><span style="font-size: medium;"><strong><span style="color: #ff0000;">This form can only be used by the service desk when the user is present and has valid ID or can be authenticated otherwise!</span></strong></span></p>
 <p>&nbsp;</p>
-<p>Wannee]]></value>
+]]></value>
                           </language>
                         </languages>
                       </translationObject>

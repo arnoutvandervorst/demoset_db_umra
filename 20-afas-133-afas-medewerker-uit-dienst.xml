@@ -27,7 +27,7 @@
         </language>
         <language>
           <code>usa</code>
-          <value><![CDATA[Deactiveer een Active Directory user account waarbij het dienstverband in AFAS niet meer actief is]]></value>
+          <value><![CDATA[Deactivate an Active Directory user account for an AFAS employee where the contract has expired]]></value>
         </language>
       </languages>
     </translationObject>
@@ -522,7 +522,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Volgende]]></value>
+                          <value><![CDATA[Next]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1813,7 +1813,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Meer informatie]]></value>
+                          <value><![CDATA[More information]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1900,7 +1900,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Bevestiging]]></value>
+                          <value><![CDATA[Confirmation]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1944,10 +1944,10 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Weet u zeker dat dit account gedeactiveerd kan worden? De volgende handelingen worden uitgevoerd:</p>
-<p>1. Het account wordt gedeactiveerd</p>
-<p>2. De huidige datum wordt verwerkt in de omschrijving van het account</p>
-<p>3. De lidmaatschappen van]]></value>
+                            <value><![CDATA[<p>Are you sure you want to execute the following procedure:</p>
+<p>1. Deactivate the user account</p>
+<p>2. Add the current date to the account description</p>
+<p>3. Remove any memberships to distribution groups</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -2026,7 +2026,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -2078,7 +2078,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Bevestigen en toepassen]]></value>
+                          <value><![CDATA[Confirm and apply]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3043,7 +3043,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3751,7 +3751,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Attributen]]></value>
+                          <value><![CDATA[Attributes]]></value>
                         </language>
                       </languages>
                     </translationObject>

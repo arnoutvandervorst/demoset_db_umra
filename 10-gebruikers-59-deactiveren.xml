@@ -1198,10 +1198,10 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[<p>Weet u zeker dat dit account gedeactiveerd kan worden? De volgende handelingen worden uitgevoerd:</p>
-<p>1. Het account wordt gedeactiveerd</p>
-<p>2. De huidige datum wordt verwerkt in de omschrijving van het account</p>
-<p>3. De lidmaatschappen van]]></value>
+                            <value><![CDATA[<p>Are you sure you want to execute the following procedure:</p>
+<p>1. Deactivate the user account</p>
+<p>2. Add the current date to the account description</p>
+<p>3. Remove any memberships to distribution groups</p>]]></value>
                           </language>
                         </languages>
                       </translationObject>

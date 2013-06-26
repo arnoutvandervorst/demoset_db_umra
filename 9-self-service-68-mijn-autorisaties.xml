@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>261</id>
       <workflowID>68</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -390,7 +390,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-view]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>12</sequence>
           <type>renderForm</type>
@@ -1419,7 +1419,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Meer informatie]]></value>
+                          <value><![CDATA[More information]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -4186,7 +4186,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -4770,7 +4770,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Attributen]]></value>
+                          <value><![CDATA[Attributes]]></value>
                         </language>
                       </languages>
                     </translationObject>

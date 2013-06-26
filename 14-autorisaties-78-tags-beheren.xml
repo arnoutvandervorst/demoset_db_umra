@@ -2620,7 +2620,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Looptijden bekijken]]></value>
+                          <value><![CDATA[View timers]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3376,7 +3376,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Startdatum]]></value>
+                          <value><![CDATA[Start date]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3464,7 +3464,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Einddatum]]></value>
+                          <value><![CDATA[End date]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -13774,7 +13774,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -16202,7 +16202,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
