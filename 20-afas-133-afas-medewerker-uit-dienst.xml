@@ -386,8 +386,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <defaultValueUmraVariable>
                     <id>1161</id>
                     <name><![CDATA[%Table_afas_employees_common_inactive%]]></name>
@@ -555,7 +554,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>2420</nextActivityID>
+                  <nextActivityID>4892</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>

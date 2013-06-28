@@ -386,8 +386,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridView</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <defaultValueUmraVariable>
                     <id>1167</id>
                     <name><![CDATA[%Table_afas_employees_common_changed%]]></name>

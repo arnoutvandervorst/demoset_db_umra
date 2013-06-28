@@ -2132,18 +2132,18 @@
           <id>2904</id>
           <workflowLayerID>284</workflowLayerID>
           <umraVariable>
-            <id>744</id>
+            <id>640</id>
             <name><![CDATA[%password%]]></name>
             <displayName>
               <translationObject>
                 <languages>
                   <language>
                     <code>nl</code>
-                    <value><![CDATA[]]></value>
+                    <value><![CDATA[Wachtwoord]]></value>
                   </language>
                   <language>
                     <code>usa</code>
-                    <value><![CDATA[]]></value>
+                    <value><![CDATA[Password]]></value>
                   </language>
                 </languages>
               </translationObject>

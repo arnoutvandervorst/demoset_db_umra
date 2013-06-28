@@ -913,11 +913,11 @@
                   <languages>
                     <language>
                       <code>nl</code>
-                      <value><![CDATA[Geselecteerde gebruiker]]></value>
+                      <value><![CDATA[Geselecteerde computer]]></value>
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Selected user account]]></value>
+                      <value><![CDATA[Selected computer account]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -1395,7 +1395,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>4415</nextActivityID>
+                  <nextActivityID>4457</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
