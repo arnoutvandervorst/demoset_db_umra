@@ -37,7 +37,7 @@ TRUNCATE TABLE workflowDelegation
 TRUNCATE TABLE repositoryData
 TRUNCATE TABLE errorLog
 DELETE FROM workflowInstances
-DBCC CHECKIDENT (workflowInstances, RESEED, 1)
+DBCC CHECKIDENT (workflowInstances, RESEED, 0)
 
 DECLARE @table_fields TABLE (id bigint, nameTranslationObjectID bigint) 
 INSERT INTO @table_fields
@@ -85,3 +85,14 @@ INNER JOIN @table_workflows w ON w.nameTranslationObjectID = t_o.id)
 DELETE FROM translationObjects WHERE id IN
 (SELECT t_o.id FROM translationObjects t_o
 INNER JOIN @table_workflows w ON w.nameTranslationObjectID = t_o.id)
+
+DECLARE @table_umravariables TABLE (id bigint)
+INSERT INTO @table_umravariables
+SELECT v.ID
+FROM umraVariables v
+WHERE (ISNULL((SELECT COUNT(id) FROM fields f WHERE f.defaultValueUmraVariableID = v.ID OR f.umraVariableID = v.ID), 0) +
+ISNULL((SELECT COUNT(id) FROM activities a WHERE a.targetUmraVariableID = v.ID OR a.umraVariableID = v.ID), 0) +
+ISNULL((SELECT COUNT(id) FROM umraVariables v_r WHERE v_r.repositoryUmraScriptVariableID = v.ID), 0)) = 0
+
+DELETE FROM umraVariables WHERE ID IN
+(SELECT v.id FROM @table_umravariables v)
