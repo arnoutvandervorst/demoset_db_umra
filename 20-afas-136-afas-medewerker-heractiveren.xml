@@ -48,7 +48,7 @@
   </name>
   <sequence>4</sequence>
   <visible>True</visible>
-  <workflowIcon>33.png</workflowIcon>
+  <workflowIcon>93.png</workflowIcon>
   <category>
     <id>20</id>
     <name>
@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>587</id>
       <workflowID>136</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -290,7 +290,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Nieuwe AFAS medewerkers in dienst (sinds 60 dagen)]]></value>
+                      <value><![CDATA[New AFAS employee contracts]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -440,7 +440,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[Kies of vul een waarde]]></value>
+                            <value><![CDATA[Select or enter a value]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -521,7 +521,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Volgende]]></value>
+                          <value><![CDATA[Next]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -566,7 +566,7 @@
     <workflowLayer>
       <id>588</id>
       <workflowID>136</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[3-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2184,7 +2184,7 @@
     <workflowLayer>
       <id>589</id>
       <workflowID>136</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[2-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2433,18 +2433,18 @@
           <id>5100</id>
           <workflowLayerID>589</workflowLayerID>
           <umraVariable>
-            <id>1181</id>
+            <id>559</id>
             <name><![CDATA[%Table_user_attributes_basic%]]></name>
             <displayName>
               <translationObject>
                 <languages>
                   <language>
                     <code>nl</code>
-                    <value><![CDATA[Geselecteerde gebruiker]]></value>
+                    <value><![CDATA[Gebruikersaccount:]]></value>
                   </language>
                   <language>
                     <code>usa</code>
-                    <value><![CDATA[Gebruikersaccount:]]></value>
+                    <value><![CDATA[User account]]></value>
                   </language>
                 </languages>
               </translationObject>
@@ -2895,7 +2895,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Geselecteerde gebruiker]]></value>
+                      <value><![CDATA[Selected user account]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -2958,18 +2958,18 @@
                   <maxLength>
                   </maxLength>
                   <defaultValueUmraVariable>
-                    <id>1181</id>
+                    <id>559</id>
                     <name><![CDATA[%Table_user_attributes_basic%]]></name>
                     <displayName>
                       <translationObject>
                         <languages>
                           <language>
                             <code>nl</code>
-                            <value><![CDATA[Geselecteerde gebruiker]]></value>
+                            <value><![CDATA[Gebruikersaccount:]]></value>
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[Gebruikersaccount:]]></value>
+                            <value><![CDATA[User account]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -3072,7 +3072,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Meer informatie]]></value>
+                          <value><![CDATA[More information]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3122,7 +3122,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Samenvatting]]></value>
+                      <value><![CDATA[Summary]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -3195,7 +3195,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[]]></value>
+                          <value><![CDATA[Category]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3221,7 +3221,7 @@
                   <maxLength>
                   </maxLength>
                   <defaultValueUmraVariable>
-                    <id>1182</id>
+                    <id>642</id>
                     <name><![CDATA[%Table_tags_repository%]]></name>
                     <displayName>
                       <translationObject>
@@ -3292,7 +3292,7 @@
                       </repositoryUmraScriptVariable>
                       <repositoryThreshold>0</repositoryThreshold>
                     </repositoryUmraScriptVariable>
-                    <repositoryThreshold>60</repositoryThreshold>
+                    <repositoryThreshold>0</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
                   </validator>
@@ -3355,7 +3355,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[]]></value>
+                          <value><![CDATA[Groups]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3531,7 +3531,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3583,7 +3583,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Bevestigen en toepassen]]></value>
+                          <value><![CDATA[Confirm and apply]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -3628,7 +3628,7 @@
     <workflowLayer>
       <id>590</id>
       <workflowID>136</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

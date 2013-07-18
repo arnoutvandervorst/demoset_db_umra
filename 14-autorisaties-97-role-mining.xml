@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>5</sequence>
+    <sequence>6</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>431</id>
       <workflowID>97</workflowID>
-      <name><![CDATA[main]]></name>
+      <name><![CDATA[1-main]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -424,7 +424,7 @@
     <workflowLayer>
       <id>432</id>
       <workflowID>97</workflowID>
-      <name><![CDATA[view-relationships-report]]></name>
+      <name><![CDATA[2-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -743,7 +743,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-view-relationships-report]]></name>
+          <name><![CDATA[form-view]]></name>
           <description><![CDATA[]]></description>
           <sequence>6</sequence>
           <type>renderForm</type>

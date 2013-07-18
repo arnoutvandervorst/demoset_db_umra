@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>10</sequence>
+    <sequence>11</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>453</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[main]]></name>
+      <name><![CDATA[1-main]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -522,7 +522,7 @@
     <workflowLayer>
       <id>454</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[create-collection]]></name>
+      <name><![CDATA[2a-create-collection]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1119,7 +1119,7 @@
     <workflowLayer>
       <id>455</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[process-create-collection]]></name>
+      <name><![CDATA[3a-process-create-collection]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1704,7 +1704,7 @@
     <workflowLayer>
       <id>459</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[edit-collection]]></name>
+      <name><![CDATA[2b-edit-collection]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2965,7 +2965,7 @@
     <workflowLayer>
       <id>460</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[process-edit-collection]]></name>
+      <name><![CDATA[3b-process-edit-collection]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -3550,7 +3550,7 @@
     <workflowLayer>
       <id>461</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[delete-collection]]></name>
+      <name><![CDATA[2c-delete-collection]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -3879,7 +3879,7 @@
     <workflowLayer>
       <id>462</id>
       <workflowID>106</workflowID>
-      <name><![CDATA[process-delete-collection]]></name>
+      <name><![CDATA[3c-process-delete-collection]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

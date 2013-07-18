@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>241</id>
       <workflowID>63</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -90,7 +90,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-user]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>renderForm</type>
@@ -422,7 +422,7 @@
     <workflowLayer>
       <id>242</id>
       <workflowID>63</workflowID>
-      <name><![CDATA[memberships]]></name>
+      <name><![CDATA[2-memberships]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1538,7 +1538,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>2319</nextActivityID>
+                  <nextActivityID>2320</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -1550,7 +1550,7 @@
     <workflowLayer>
       <id>243</id>
       <workflowID>63</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1968,71 +1968,11 @@
     <workflowLayer>
       <id>244</id>
       <workflowID>63</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
       <activities>
-        <activity>
-          <id>2319</id>
-          <workflowLayerID>244</workflowLayerID>
-          <umraVariable>
-            <id>502</id>
-            <name><![CDATA[Execute UMRA script]]></name>
-            <displayName>
-              <translationObject>
-                <languages>
-                  <language>
-                    <code>nl</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                  <language>
-                    <code>usa</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                </languages>
-              </translationObject>
-            </displayName>
-            <defaultValue>
-              <translationObject>
-                <languages>
-                  <language>
-                    <code>nl</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                  <language>
-                    <code>usa</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                </languages>
-              </translationObject>
-            </defaultValue>
-            <umraScript><![CDATA[global-init]]></umraScript>
-            <type>script</type>
-            <isRepositoryVariable>False</isRepositoryVariable>
-            <repositoryUmraScriptVariable>
-            </repositoryUmraScriptVariable>
-            <repositoryThreshold>0</repositoryThreshold>
-          </umraVariable>
-          <targetUmraVariable>
-          </targetUmraVariable>
-          <conditionTrueActivityID>
-          </conditionTrueActivityID>
-          <conditionFalseActivityID>
-          </conditionFalseActivityID>
-          <nextActivityID>
-          </nextActivityID>
-          <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[global-init]]></name>
-          <description><![CDATA[]]></description>
-          <sequence>1</sequence>
-          <type>executeScript</type>
-          <standby>False</standby>
-          <closeInstance>False</closeInstance>
-          <visible>True</visible>
-          <fieldSets>
-          </fieldSets>
-        </activity>
         <activity>
           <id>2320</id>
           <workflowLayerID>244</workflowLayerID>
@@ -2689,7 +2629,7 @@
     <workflowLayer>
       <id>558</id>
       <workflowID>63</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

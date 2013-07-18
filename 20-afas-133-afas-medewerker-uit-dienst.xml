@@ -41,7 +41,7 @@
         </language>
         <language>
           <code>usa</code>
-          <value><![CDATA[AFAS employee contract end]]></value>
+          <value><![CDATA[AFAS employee deprovisioning]]></value>
         </language>
       </languages>
     </translationObject>
@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>570</id>
       <workflowID>133</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -566,7 +566,7 @@
     <workflowLayer>
       <id>571</id>
       <workflowID>133</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[3-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1116,7 +1116,7 @@
     <workflowLayer>
       <id>572</id>
       <workflowID>133</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[2-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2122,7 +2122,7 @@
     <workflowLayer>
       <id>573</id>
       <workflowID>133</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

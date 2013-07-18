@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>12</sequence>
+    <sequence>13</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>516</id>
       <workflowID>123</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -90,7 +90,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-user]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>renderForm</type>
@@ -422,7 +422,7 @@
     <workflowLayer>
       <id>518</id>
       <workflowID>123</workflowID>
-      <name><![CDATA[edit]]></name>
+      <name><![CDATA[2-edit]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -3934,7 +3934,7 @@
     <workflowLayer>
       <id>519</id>
       <workflowID>123</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -4211,7 +4211,7 @@
     <workflowLayer>
       <id>520</id>
       <workflowID>123</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -4845,7 +4845,7 @@
     <workflowLayer>
       <id>584</id>
       <workflowID>123</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>8</sequence>
+    <sequence>9</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>354</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[main]]></name>
+      <name><![CDATA[1-main]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -472,7 +472,7 @@
     <workflowLayer>
       <id>355</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[create]]></name>
+      <name><![CDATA[2a-create]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1885,7 +1885,7 @@
     <workflowLayer>
       <id>356</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[manage]]></name>
+      <name><![CDATA[2b-manage]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -3797,7 +3797,7 @@
     <workflowLayer>
       <id>357</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[manage-delete]]></name>
+      <name><![CDATA[3ba-manage-delete]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -4074,7 +4074,7 @@
     <workflowLayer>
       <id>359</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[process-create]]></name>
+      <name><![CDATA[3a-process-create]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -5067,7 +5067,7 @@
     <workflowLayer>
       <id>360</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[process-delete]]></name>
+      <name><![CDATA[4ba-process-delete]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -5496,7 +5496,7 @@
     <workflowLayer>
       <id>361</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[process-edit]]></name>
+      <name><![CDATA[4bb-process-edit]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -6489,7 +6489,7 @@
     <workflowLayer>
       <id>362</id>
       <workflowID>88</workflowID>
-      <name><![CDATA[manage-edit]]></name>
+      <name><![CDATA[3bb-manage-edit]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

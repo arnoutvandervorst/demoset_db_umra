@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>12</sequence>
+    <sequence>13</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>510</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -90,7 +90,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-user]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>renderForm</type>
@@ -422,7 +422,7 @@
     <workflowLayer>
       <id>511</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[manage]]></name>
+      <name><![CDATA[2-manage]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1303,7 +1303,7 @@
                   <fieldsetID>599</fieldsetID>
                   <umraVariable>
                   </umraVariable>
-                  <fieldColumn>0</fieldColumn>
+                  <fieldColumn>2</fieldColumn>
                   <name>
                     <translationObject>
                       <languages>
@@ -1358,7 +1358,7 @@
     <workflowLayer>
       <id>512</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1635,7 +1635,7 @@
     <workflowLayer>
       <id>513</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1739,7 +1739,7 @@
     <workflowLayer>
       <id>514</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[set-hidden]]></name>
+      <name><![CDATA[5a-set-hidden]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2097,7 +2097,7 @@
     <workflowLayer>
       <id>515</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[set-visible]]></name>
+      <name><![CDATA[5b-set-visible]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2455,7 +2455,7 @@
     <workflowLayer>
       <id>585</id>
       <workflowID>122</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>12</sequence>
+    <sequence>13</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>547</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -423,7 +423,7 @@
     <workflowLayer>
       <id>548</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[manage]]></name>
+      <name><![CDATA[2-manage]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1359,7 +1359,7 @@
     <workflowLayer>
       <id>549</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1636,7 +1636,7 @@
     <workflowLayer>
       <id>550</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1740,7 +1740,7 @@
     <workflowLayer>
       <id>551</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[set-hidden]]></name>
+      <name><![CDATA[5a-set-hidden]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2098,7 +2098,7 @@
     <workflowLayer>
       <id>552</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[set-visible]]></name>
+      <name><![CDATA[5b-set-visible]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2456,7 +2456,7 @@
     <workflowLayer>
       <id>583</id>
       <workflowID>131</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

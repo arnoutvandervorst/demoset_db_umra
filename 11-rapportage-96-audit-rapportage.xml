@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>7</sequence>
+    <sequence>8</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>409</id>
       <workflowID>96</workflowID>
-      <name><![CDATA[main]]></name>
+      <name><![CDATA[1-main]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>

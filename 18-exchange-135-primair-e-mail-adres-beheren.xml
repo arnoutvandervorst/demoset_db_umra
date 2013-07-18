@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>12</sequence>
+    <sequence>13</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>577</id>
       <workflowID>135</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -90,7 +90,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-user]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>8</sequence>
           <type>renderForm</type>
@@ -110,7 +110,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Selecteer een gebruiker]]></value>
+                      <value><![CDATA[Select a user account]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -183,7 +183,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[User selectie]]></value>
+                          <value><![CDATA[User account selection]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -297,7 +297,7 @@
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[Kies of vul een waarde]]></value>
+                            <value><![CDATA[Select or enter a value]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -423,7 +423,7 @@
     <workflowLayer>
       <id>578</id>
       <workflowID>135</workflowID>
-      <name><![CDATA[manage]]></name>
+      <name><![CDATA[2-manage]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -789,6 +789,162 @@
           </fieldSets>
         </activity>
         <activity>
+          <id>5142</id>
+          <workflowLayerID>578</workflowLayerID>
+          <umraVariable>
+            <id>1186</id>
+            <name><![CDATA[%AD_proxyAddresses_primary%]]></name>
+            <displayName>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </displayName>
+            <defaultValue>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>string</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%AD_proxyAddresses_primary%]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>8</sequence>
+          <type>getVariable</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
+          <id>5144</id>
+          <workflowLayerID>578</workflowLayerID>
+          <umraVariable>
+            <id>1186</id>
+            <name><![CDATA[%AD_proxyAddresses_primary%]]></name>
+            <displayName>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </displayName>
+            <defaultValue>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>string</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+            <id>1177</id>
+            <name><![CDATA[%proxyAddress%]]></name>
+            <displayName>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[Primair e-mail adres]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[Primary e-mail address]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </displayName>
+            <defaultValue>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </defaultValue>
+            <umraScript><![CDATA[]]></umraScript>
+            <type>string</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[%proxyAddress%]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>10</sequence>
+          <type>copyVariableData</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
           <id>4973</id>
           <workflowLayerID>578</workflowLayerID>
           <umraVariable>
@@ -804,7 +960,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[form-manage]]></name>
           <description><![CDATA[]]></description>
-          <sequence>8</sequence>
+          <sequence>11</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
@@ -822,7 +978,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Geselecteerde gebruiker]]></value>
+                      <value><![CDATA[Selected user account]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -1049,7 +1205,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[E-mail adressen]]></value>
+                      <value><![CDATA[E-mail addresses]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -1186,8 +1342,8 @@
                     <repositoryThreshold>0</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
-                    <id>9</id>
-                    <name><![CDATA[[Calendar] Only future date (required)]]></name>
+                    <id>7</id>
+                    <name><![CDATA[Required field validation]]></name>
                     <requiredField>True</requiredField>
                     <regularExpressionValidation>False</regularExpressionValidation>
                     <regularExpression><![CDATA[]]></regularExpression>
@@ -1196,11 +1352,11 @@
                         <languages>
                           <language>
                             <code>nl</code>
-                            <value><![CDATA[Geen geldige datum in de toekomst ingevuld]]></value>
+                            <value><![CDATA[Dit is een verplicht veld]]></value>
                           </language>
                           <language>
                             <code>usa</code>
-                            <value><![CDATA[No valid future date has been entered]]></value>
+                            <value><![CDATA[This is a required field]]></value>
                           </language>
                         </languages>
                       </translationObject>
@@ -1282,7 +1438,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1334,7 +1490,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Volgende]]></value>
+                          <value><![CDATA[Next]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1379,7 +1535,7 @@
     <workflowLayer>
       <id>579</id>
       <workflowID>135</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1418,7 +1574,7 @@
                     </language>
                     <language>
                       <code>usa</code>
-                      <value><![CDATA[Samenvatting]]></value>
+                      <value><![CDATA[Summary]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -1559,7 +1715,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Terug]]></value>
+                          <value><![CDATA[Back]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1611,7 +1767,7 @@
                         </language>
                         <language>
                           <code>usa</code>
-                          <value><![CDATA[Bevestigen en toepassen]]></value>
+                          <value><![CDATA[Confirm and apply]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -1656,7 +1812,7 @@
     <workflowLayer>
       <id>580</id>
       <workflowID>135</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2014,7 +2170,7 @@
     <workflowLayer>
       <id>582</id>
       <workflowID>135</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>6</sequence>
+    <sequence>7</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>261</id>
       <workflowID>68</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -687,7 +687,7 @@
     <workflowLayer>
       <id>262</id>
       <workflowID>68</workflowID>
-      <name><![CDATA[members]]></name>
+      <name><![CDATA[2-members]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1815,7 +1815,7 @@
     <workflowLayer>
       <id>263</id>
       <workflowID>68</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2536,7 +2536,7 @@
     <workflowLayer>
       <id>264</id>
       <workflowID>68</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -3266,7 +3266,7 @@
     <workflowLayer>
       <id>563</id>
       <workflowID>68</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

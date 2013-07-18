@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>283</id>
       <workflowID>73</workflowID>
-      <name><![CDATA[names]]></name>
+      <name><![CDATA[1-names]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -1237,7 +1237,7 @@
                         <languages>
                           <language>
                             <code>nl</code>
-                            <value><![CDATA[<p>Kies de autorisaties door deze van de linkerkant naar de rechterkant te verplaatsen.</p>]]></value>
+                            <value><![CDATA[]]></value>
                           </language>
                           <language>
                             <code>usa</code>
@@ -1523,7 +1523,7 @@
     <workflowLayer>
       <id>284</id>
       <workflowID>73</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[2-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2640,7 +2640,7 @@
     <workflowLayer>
       <id>285</id>
       <workflowID>73</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[3-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

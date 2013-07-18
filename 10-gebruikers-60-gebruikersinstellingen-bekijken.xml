@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>232</id>
       <workflowID>60</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -422,7 +422,7 @@
     <workflowLayer>
       <id>233</id>
       <workflowID>60</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

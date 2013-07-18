@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>349</id>
       <workflowID>87</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -422,7 +422,7 @@
     <workflowLayer>
       <id>350</id>
       <workflowID>87</workflowID>
-      <name><![CDATA[manage-tags]]></name>
+      <name><![CDATA[2-manage]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -897,7 +897,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-manage-tags]]></name>
+          <name><![CDATA[form-manage]]></name>
           <description><![CDATA[]]></description>
           <sequence>11</sequence>
           <type>renderForm</type>
@@ -1510,7 +1510,7 @@
     <workflowLayer>
       <id>351</id>
       <workflowID>87</workflowID>
-      <name><![CDATA[confirm-tags]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1973,7 +1973,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-confirm-tags]]></name>
+          <name><![CDATA[form-confirm]]></name>
           <description><![CDATA[]]></description>
           <sequence>6</sequence>
           <type>renderForm</type>
@@ -2231,7 +2231,7 @@
     <workflowLayer>
       <id>352</id>
       <workflowID>87</workflowID>
-      <name><![CDATA[process-tags]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2649,7 +2649,7 @@
     <workflowLayer>
       <id>557</id>
       <workflowID>87</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2a-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>6</sequence>
+    <sequence>7</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>292</id>
       <workflowID>76</workflowID>
-      <name><![CDATA[main]]></name>
+      <name><![CDATA[1-main]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -712,7 +712,7 @@
     <workflowLayer>
       <id>293</id>
       <workflowID>76</workflowID>
-      <name><![CDATA[group-member]]></name>
+      <name><![CDATA[2-group-member]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1313,7 +1313,7 @@
                   </textPart>
                   <helpTextPart>
                   </helpTextPart>
-                  <nextActivityID>2660</nextActivityID>
+                  <nextActivityID>2661</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -1325,71 +1325,11 @@
     <workflowLayer>
       <id>294</id>
       <workflowID>76</workflowID>
-      <name><![CDATA[remove]]></name>
+      <name><![CDATA[3-remove]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
       <activities>
-        <activity>
-          <id>2660</id>
-          <workflowLayerID>294</workflowLayerID>
-          <umraVariable>
-            <id>502</id>
-            <name><![CDATA[Execute UMRA script]]></name>
-            <displayName>
-              <translationObject>
-                <languages>
-                  <language>
-                    <code>nl</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                  <language>
-                    <code>usa</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                </languages>
-              </translationObject>
-            </displayName>
-            <defaultValue>
-              <translationObject>
-                <languages>
-                  <language>
-                    <code>nl</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                  <language>
-                    <code>usa</code>
-                    <value><![CDATA[]]></value>
-                  </language>
-                </languages>
-              </translationObject>
-            </defaultValue>
-            <umraScript><![CDATA[global-init]]></umraScript>
-            <type>script</type>
-            <isRepositoryVariable>False</isRepositoryVariable>
-            <repositoryUmraScriptVariable>
-            </repositoryUmraScriptVariable>
-            <repositoryThreshold>0</repositoryThreshold>
-          </umraVariable>
-          <targetUmraVariable>
-          </targetUmraVariable>
-          <conditionTrueActivityID>
-          </conditionTrueActivityID>
-          <conditionFalseActivityID>
-          </conditionFalseActivityID>
-          <nextActivityID>
-          </nextActivityID>
-          <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[global-init]]></name>
-          <description><![CDATA[]]></description>
-          <sequence>1</sequence>
-          <type>executeScript</type>
-          <standby>False</standby>
-          <closeInstance>False</closeInstance>
-          <visible>True</visible>
-          <fieldSets>
-          </fieldSets>
-        </activity>
         <activity>
           <id>2661</id>
           <workflowLayerID>294</workflowLayerID>
@@ -1754,7 +1694,7 @@
     <workflowLayer>
       <id>295</id>
       <workflowID>76</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

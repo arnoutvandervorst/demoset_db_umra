@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>6</sequence>
+    <sequence>7</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>203</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -1398,7 +1398,7 @@
                         <languages>
                           <language>
                             <code>nl</code>
-                            <value><![CDATA[<p>Kies de autorisaties door deze van de linkerkant naar de rechterkant te verplaatsen.</p>]]></value>
+                            <value><![CDATA[]]></value>
                           </language>
                           <language>
                             <code>usa</code>
@@ -1524,7 +1524,7 @@
     <workflowLayer>
       <id>204</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[2-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2521,7 +2521,7 @@
     <workflowLayer>
       <id>205</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[assign-query]]></name>
+      <name><![CDATA[4-assign-query]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -3524,7 +3524,7 @@
     <workflowLayer>
       <id>206</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[approved]]></name>
+      <name><![CDATA[6a-approved]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -4194,7 +4194,7 @@
     <workflowLayer>
       <id>207</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[denied]]></name>
+      <name><![CDATA[6b-denied]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -4552,7 +4552,7 @@
     <workflowLayer>
       <id>208</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[split]]></name>
+      <name><![CDATA[3-split]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -4885,7 +4885,7 @@
     <workflowLayer>
       <id>209</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[assign-owner-user]]></name>
+      <name><![CDATA[5a-assign-owner-user]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -5665,7 +5665,7 @@
     <workflowLayer>
       <id>210</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[assign-manager]]></name>
+      <name><![CDATA[5b-assign-manager]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -6576,7 +6576,7 @@
     <workflowLayer>
       <id>211</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[assign-default]]></name>
+      <name><![CDATA[5d-assign-default]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -7356,7 +7356,7 @@
     <workflowLayer>
       <id>379</id>
       <workflowID>53</workflowID>
-      <name><![CDATA[assign-owner-group]]></name>
+      <name><![CDATA[5c-assign-owner-group]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

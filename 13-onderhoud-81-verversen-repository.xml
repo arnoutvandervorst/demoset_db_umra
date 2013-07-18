@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>8</sequence>
+    <sequence>9</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>321</id>
       <workflowID>81</workflowID>
-      <name><![CDATA[confirm-refresh]]></name>
+      <name><![CDATA[1-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -90,7 +90,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-confirm-reset]]></name>
+          <name><![CDATA[form-confirm]]></name>
           <description><![CDATA[]]></description>
           <sequence>1</sequence>
           <type>renderForm</type>
@@ -192,7 +192,7 @@
     <workflowLayer>
       <id>322</id>
       <workflowID>81</workflowID>
-      <name><![CDATA[process-refresh]]></name>
+      <name><![CDATA[2-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

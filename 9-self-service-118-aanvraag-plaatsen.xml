@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>6</sequence>
+    <sequence>7</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>493</id>
       <workflowID>118</workflowID>
-      <name><![CDATA[request]]></name>
+      <name><![CDATA[1-request]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -712,7 +712,7 @@
     <workflowLayer>
       <id>494</id>
       <workflowID>118</workflowID>
-      <name><![CDATA[confirm-request]]></name>
+      <name><![CDATA[2-confirm-request]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -989,7 +989,7 @@
     <workflowLayer>
       <id>495</id>
       <workflowID>118</workflowID>
-      <name><![CDATA[approval]]></name>
+      <name><![CDATA[3-approval]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1044,7 +1044,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[vul hier het bericht in wat de aanvrager ziet na de aanvraag]]></name>
+          <name><![CDATA[trace?]]></name>
           <description><![CDATA[]]></description>
           <sequence>2</sequence>
           <type>traceMessage</type>
@@ -1104,7 +1104,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[vul hier in welke status de workflow nu heeft]]></name>
+          <name><![CDATA[status?]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>setInstanceStatus</type>
@@ -1164,8 +1164,8 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[vul hier in welke user/groep de approval moet doen]]></name>
-          <description><![CDATA[Vul hier in welke user/groep de approval moet uitvoeren.]]></description>
+          <name><![CDATA[approval?]]></name>
+          <description><![CDATA[]]></description>
           <sequence>4</sequence>
           <type>assignInstance</type>
           <standby>False</standby>
@@ -1965,7 +1965,7 @@
     <workflowLayer>
       <id>496</id>
       <workflowID>118</workflowID>
-      <name><![CDATA[denied]]></name>
+      <name><![CDATA[4b-denied]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2203,7 +2203,7 @@
     <workflowLayer>
       <id>497</id>
       <workflowID>118</workflowID>
-      <name><![CDATA[approved]]></name>
+      <name><![CDATA[4a-approved]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

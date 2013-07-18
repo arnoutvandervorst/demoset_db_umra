@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>246</id>
       <workflowID>64</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -90,7 +90,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-user]]></name>
+          <name><![CDATA[form-select]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>renderForm</type>
@@ -640,7 +640,7 @@
     <workflowLayer>
       <id>247</id>
       <workflowID>64</workflowID>
-      <name><![CDATA[memberships]]></name>
+      <name><![CDATA[2-memberships]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -959,7 +959,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-select-memberships]]></name>
+          <name><![CDATA[form-memberships]]></name>
           <description><![CDATA[]]></description>
           <sequence>8</sequence>
           <type>renderForm</type>
@@ -1325,7 +1325,7 @@
     <workflowLayer>
       <id>248</id>
       <workflowID>64</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1740,7 +1740,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[form-confirm-memberships]]></name>
+          <name><![CDATA[form-confirm]]></name>
           <description><![CDATA[]]></description>
           <sequence>7</sequence>
           <type>renderForm</type>
@@ -2122,7 +2122,7 @@
     <workflowLayer>
       <id>249</id>
       <workflowID>64</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

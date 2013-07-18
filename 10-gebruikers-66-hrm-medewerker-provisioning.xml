@@ -71,7 +71,7 @@
     <workflowLayer>
       <id>254</id>
       <workflowID>66</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -566,7 +566,7 @@
     <workflowLayer>
       <id>255</id>
       <workflowID>66</workflowID>
-      <name><![CDATA[tags]]></name>
+      <name><![CDATA[2-tags]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1235,18 +1235,18 @@
           <id>2905</id>
           <workflowLayerID>255</workflowLayerID>
           <umraVariable>
-            <id>744</id>
+            <id>640</id>
             <name><![CDATA[%password%]]></name>
             <displayName>
               <translationObject>
                 <languages>
                   <language>
                     <code>nl</code>
-                    <value><![CDATA[]]></value>
+                    <value><![CDATA[Wachtwoord]]></value>
                   </language>
                   <language>
                     <code>usa</code>
-                    <value><![CDATA[]]></value>
+                    <value><![CDATA[Password]]></value>
                   </language>
                 </languages>
               </translationObject>
@@ -1689,7 +1689,7 @@
                         <languages>
                           <language>
                             <code>nl</code>
-                            <value><![CDATA[<p>Kies de autorisaties voor het nieuwe user account. Aan de rechterkant staan reeds de standaardautorisaties gebaseerd op de functie/afdeling van de nieuwe medewerker. Vanuit de linkerkant kunnen autorisaties worden toegevoegd.</p>]]></value>
+                            <value><![CDATA[]]></value>
                           </language>
                           <language>
                             <code>usa</code>
@@ -1867,7 +1867,7 @@
     <workflowLayer>
       <id>256</id>
       <workflowID>66</workflowID>
-      <name><![CDATA[process]]></name>
+      <name><![CDATA[4-process]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -2381,7 +2381,7 @@
     <workflowLayer>
       <id>257</id>
       <workflowID>66</workflowID>
-      <name><![CDATA[confirm]]></name>
+      <name><![CDATA[3-confirm]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>

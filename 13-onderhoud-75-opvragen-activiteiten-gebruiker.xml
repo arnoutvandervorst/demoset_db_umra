@@ -65,13 +65,13 @@
         </languages>
       </translationObject>
     </name>
-    <sequence>8</sequence>
+    <sequence>9</sequence>
   </category>
   <workflowLayers>
     <workflowLayer>
       <id>289</id>
       <workflowID>75</workflowID>
-      <name><![CDATA[select]]></name>
+      <name><![CDATA[1-select]]></name>
       <description><![CDATA[]]></description>
       <is_start>True</is_start>
       <visible>True</visible>
@@ -424,7 +424,7 @@
     <workflowLayer>
       <id>290</id>
       <workflowID>75</workflowID>
-      <name><![CDATA[view]]></name>
+      <name><![CDATA[2-view]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
@@ -1277,7 +1277,7 @@
     <workflowLayer>
       <id>291</id>
       <workflowID>75</workflowID>
-      <name><![CDATA[details]]></name>
+      <name><![CDATA[3-details]]></name>
       <description><![CDATA[]]></description>
       <is_start>False</is_start>
       <visible>True</visible>
