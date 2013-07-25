@@ -505,7 +505,7 @@
                   <validationGroup>
                   </validationGroup>
                   <sequence>1</sequence>
-                  <type>gridView</type>
+                  <type>gridViewAdvanced</type>
                   <maxLength>20</maxLength>
                   <defaultValueUmraVariable>
                     <id>1059</id>
@@ -1738,7 +1738,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[function-user-ad-set-expiration-date]]></name>
+          <name><![CDATA[function-user-ad-set-accountexpires]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>executeScript</type>
@@ -1929,7 +1929,7 @@
           </fieldSets>
         </activity>
         <activity>
-          <id>4093</id>
+          <id>5465</id>
           <workflowLayerID>487</workflowLayerID>
           <umraVariable>
           </umraVariable>
@@ -1942,14 +1942,206 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[end]]></name>
+          <name><![CDATA[form-process]]></name>
           <description><![CDATA[]]></description>
-          <sequence>7</sequence>
-          <type>instanceClose</type>
+          <sequence>8</sequence>
+          <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
           <visible>True</visible>
           <fieldSets>
+            <fieldSet>
+              <id>992</id>
+              <activityID>5465</activityID>
+              <name>
+                <translationObject>
+                  <languages>
+                    <language>
+                      <code>nl</code>
+                      <value><![CDATA[Details]]></value>
+                    </language>
+                    <language>
+                      <code>usa</code>
+                      <value><![CDATA[Details]]></value>
+                    </language>
+                  </languages>
+                </translationObject>
+              </name>
+              <description>
+                <translationObject>
+                  <languages>
+                    <language>
+                      <code>nl</code>
+                      <value><![CDATA[]]></value>
+                    </language>
+                    <language>
+                      <code>usa</code>
+                      <value><![CDATA[]]></value>
+                    </language>
+                  </languages>
+                </translationObject>
+              </description>
+              <sequence>1</sequence>
+              <visible>True</visible>
+              <fields>
+                <field>
+                  <id>3048</id>
+                  <fieldsetID>992</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Details]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[Details]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>1</sequence>
+                  <type>showInstanceVariables</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+                <field>
+                  <id>3049</id>
+                  <fieldsetID>992</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Spacer]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[Spacer]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>2</sequence>
+                  <type>spacer</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+                <field>
+                  <id>3052</id>
+                  <fieldsetID>992</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Terug naar begin]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[Back to start]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>5</sequence>
+                  <type>buttonStartNewInstance</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>
+                  </nextActivityID>
+                  <visible>True</visible>
+                </field>
+              </fields>
+            </fieldSet>
           </fieldSets>
         </activity>
       </activities>

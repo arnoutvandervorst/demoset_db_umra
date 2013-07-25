@@ -205,7 +205,7 @@
                   <validationGroup>
                   </validationGroup>
                   <sequence>1</sequence>
-                  <type>gridView</type>
+                  <type>gridViewAdvanced</type>
                   <maxLength>20</maxLength>
                   <defaultValueUmraVariable>
                     <id>565</id>
@@ -279,7 +279,7 @@
                       </repositoryUmraScriptVariable>
                       <repositoryThreshold>0</repositoryThreshold>
                     </repositoryUmraScriptVariable>
-                    <repositoryThreshold>60</repositoryThreshold>
+                    <repositoryThreshold>600</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
                     <id>1</id>

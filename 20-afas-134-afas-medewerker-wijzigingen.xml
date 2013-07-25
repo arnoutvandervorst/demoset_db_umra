@@ -385,7 +385,7 @@
                   <validationGroup>
                   </validationGroup>
                   <sequence>1</sequence>
-                  <type>gridView</type>
+                  <type>gridViewAdvanced</type>
                   <maxLength>20</maxLength>
                   <defaultValueUmraVariable>
                     <id>1167</id>

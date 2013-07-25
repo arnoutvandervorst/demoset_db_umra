@@ -691,7 +691,7 @@
               </repositoryUmraScriptVariable>
               <repositoryThreshold>0</repositoryThreshold>
             </repositoryUmraScriptVariable>
-            <repositoryThreshold>60</repositoryThreshold>
+            <repositoryThreshold>600</repositoryThreshold>
           </umraVariable>
           <targetUmraVariable>
             <id>511</id>
@@ -1015,7 +1015,7 @@
               </repositoryUmraScriptVariable>
               <repositoryThreshold>0</repositoryThreshold>
             </repositoryUmraScriptVariable>
-            <repositoryThreshold>60</repositoryThreshold>
+            <repositoryThreshold>600</repositoryThreshold>
           </umraVariable>
           <targetUmraVariable>
             <id>512</id>

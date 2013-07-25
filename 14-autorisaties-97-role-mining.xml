@@ -46,7 +46,7 @@
       </languages>
     </translationObject>
   </name>
-  <sequence>27</sequence>
+  <sequence>28</sequence>
   <visible>True</visible>
   <workflowIcon>79.png</workflowIcon>
   <category>
@@ -280,7 +280,7 @@
                       </repositoryUmraScriptVariable>
                       <repositoryThreshold>0</repositoryThreshold>
                     </repositoryUmraScriptVariable>
-                    <repositoryThreshold>60</repositoryThreshold>
+                    <repositoryThreshold>600</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
                     <id>1</id>
