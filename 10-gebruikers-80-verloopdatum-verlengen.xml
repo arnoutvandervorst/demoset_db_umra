@@ -133,6 +133,185 @@
               <visible>True</visible>
               <fields>
                 <field>
+                  <id>3208</id>
+                  <fieldsetID>353</fieldsetID>
+                  <umraVariable>
+                    <id>546</id>
+                    <name><![CDATA[%Table_users_selected%]]></name>
+                    <displayName>
+                      <translationObject>
+                        <languages>
+                          <language>
+                            <code>nl</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                          <language>
+                            <code>usa</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                        </languages>
+                      </translationObject>
+                    </displayName>
+                    <defaultValue>
+                      <translationObject>
+                        <languages>
+                          <language>
+                            <code>nl</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                          <language>
+                            <code>usa</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                        </languages>
+                      </translationObject>
+                    </defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>table</type>
+                    <isRepositoryVariable>False</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>0</repositoryThreshold>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[User selectie]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[User selection]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>5</sequence>
+                  <type>gridViewAdvanced</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                    <id>565</id>
+                    <name><![CDATA[%Table_users_repository%]]></name>
+                    <displayName>
+                      <translationObject>
+                        <languages>
+                          <language>
+                            <code>nl</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                          <language>
+                            <code>usa</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                        </languages>
+                      </translationObject>
+                    </displayName>
+                    <defaultValue>
+                      <translationObject>
+                        <languages>
+                          <language>
+                            <code>nl</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                          <language>
+                            <code>usa</code>
+                            <value><![CDATA[]]></value>
+                          </language>
+                        </languages>
+                      </translationObject>
+                    </defaultValue>
+                    <umraScript><![CDATA[]]></umraScript>
+                    <type>table</type>
+                    <isRepositoryVariable>True</isRepositoryVariable>
+                    <repositoryUmraScriptVariable>
+                      <id>564</id>
+                      <name><![CDATA[Execute UMRA script]]></name>
+                      <displayName>
+                        <translationObject>
+                          <languages>
+                            <language>
+                              <code>nl</code>
+                              <value><![CDATA[]]></value>
+                            </language>
+                            <language>
+                              <code>usa</code>
+                              <value><![CDATA[]]></value>
+                            </language>
+                          </languages>
+                        </translationObject>
+                      </displayName>
+                      <defaultValue>
+                        <translationObject>
+                          <languages>
+                            <language>
+                              <code>nl</code>
+                              <value><![CDATA[]]></value>
+                            </language>
+                            <language>
+                              <code>usa</code>
+                              <value><![CDATA[]]></value>
+                            </language>
+                          </languages>
+                        </translationObject>
+                      </defaultValue>
+                      <umraScript><![CDATA[function-generate-table-users-repository]]></umraScript>
+                      <type>script</type>
+                      <isRepositoryVariable>False</isRepositoryVariable>
+                      <repositoryUmraScriptVariable>
+                      </repositoryUmraScriptVariable>
+                      <repositoryThreshold>0</repositoryThreshold>
+                    </repositoryUmraScriptVariable>
+                    <repositoryThreshold>600</repositoryThreshold>
+                  </defaultValueUmraVariable>
+                  <validator>
+                    <id>7</id>
+                    <name><![CDATA[Required field validation]]></name>
+                    <requiredField>True</requiredField>
+                    <regularExpressionValidation>False</regularExpressionValidation>
+                    <regularExpression><![CDATA[]]></regularExpression>
+                    <errorMessage>
+                      <translationObject>
+                        <languages>
+                          <language>
+                            <code>nl</code>
+                            <value><![CDATA[Dit is een verplicht veld]]></value>
+                          </language>
+                          <language>
+                            <code>usa</code>
+                            <value><![CDATA[This is a required field]]></value>
+                          </language>
+                        </languages>
+                      </translationObject>
+                    </errorMessage>
+                    <isDefault>True</isDefault>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>5571</nextActivityID>
+                  <visible>True</visible>
+                </field>
+                <field>
                   <id>2539</id>
                   <fieldsetID>353</fieldsetID>
                   <umraVariable>
@@ -168,7 +347,7 @@
                   </description>
                   <validationGroup>
                   </validationGroup>
-                  <sequence>5</sequence>
+                  <sequence>6</sequence>
                   <type>spacer</type>
                   <maxLength>
                   </maxLength>
@@ -182,6 +361,57 @@
                   </helpTextPart>
                   <nextActivityID>
                   </nextActivityID>
+                  <visible>True</visible>
+                </field>
+                <field>
+                  <id>3207</id>
+                  <fieldsetID>353</fieldsetID>
+                  <umraVariable>
+                  </umraVariable>
+                  <fieldColumn>0</fieldColumn>
+                  <name>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Volgende]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[Next]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </name>
+                  <description>
+                    <translationObject>
+                      <languages>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                        <language>
+                          <code>usa</code>
+                          <value><![CDATA[]]></value>
+                        </language>
+                      </languages>
+                    </translationObject>
+                  </description>
+                  <validationGroup>
+                  </validationGroup>
+                  <sequence>7</sequence>
+                  <type>nextButton</type>
+                  <maxLength>
+                  </maxLength>
+                  <defaultValueUmraVariable>
+                  </defaultValueUmraVariable>
+                  <validator>
+                  </validator>
+                  <textPart>
+                  </textPart>
+                  <helpTextPart>
+                  </helpTextPart>
+                  <nextActivityID>5571</nextActivityID>
                   <visible>True</visible>
                 </field>
               </fields>
@@ -198,6 +428,66 @@
       <is_start>False</is_start>
       <visible>True</visible>
       <activities>
+        <activity>
+          <id>5571</id>
+          <workflowLayerID>319</workflowLayerID>
+          <umraVariable>
+            <id>502</id>
+            <name><![CDATA[Execute UMRA script]]></name>
+            <displayName>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </displayName>
+            <defaultValue>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </defaultValue>
+            <umraScript><![CDATA[global-init]]></umraScript>
+            <type>script</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[global-init]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>9</sequence>
+          <type>executeScript</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
         <activity>
           <id>3011</id>
           <workflowLayerID>319</workflowLayerID>
@@ -286,7 +576,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Object_dn%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>9</sequence>
+          <sequence>10</sequence>
           <type>getTableValue_Row_0_Cell_0</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -310,7 +600,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[set all]]></name>
           <description><![CDATA[]]></description>
-          <sequence>10</sequence>
+          <sequence>11</sequence>
           <type>setInstanceVariables</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -370,7 +660,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[function-generate-table-user-attributes]]></name>
           <description><![CDATA[]]></description>
-          <sequence>11</sequence>
+          <sequence>12</sequence>
           <type>executeScript</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -430,7 +720,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Table_user_attributes_basic%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>12</sequence>
+          <sequence>13</sequence>
           <type>getTableVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -490,7 +780,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Table_user_attributes%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>13</sequence>
+          <sequence>14</sequence>
           <type>getTableVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -550,7 +840,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%AD_accountExpires_date_locale%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>14</sequence>
+          <sequence>15</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -574,7 +864,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[form-confirm]]></name>
           <description><![CDATA[]]></description>
-          <sequence>15</sequence>
+          <sequence>16</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
