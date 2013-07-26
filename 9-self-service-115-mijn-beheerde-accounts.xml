@@ -2819,7 +2819,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[trace executed]]></name>
+          <name><![CDATA[%Trace_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>8</sequence>
           <type>traceMessage</type>
@@ -2879,7 +2879,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>9</sequence>
           <type>setInstanceStatus</type>

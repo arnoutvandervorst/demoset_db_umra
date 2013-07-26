@@ -5607,7 +5607,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>6</sequence>
           <type>setInstanceStatus</type>
@@ -7358,7 +7358,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>6</sequence>
           <type>setInstanceStatus</type>
@@ -8461,7 +8461,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>setInstanceStatus</type>
@@ -9624,7 +9624,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>setInstanceStatus</type>
@@ -10727,7 +10727,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>setInstanceStatus</type>
@@ -11890,7 +11890,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>5</sequence>
           <type>setInstanceStatus</type>

@@ -4897,7 +4897,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>40</sequence>
           <type>setInstanceStatus</type>
@@ -5447,7 +5447,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>10</sequence>
           <type>setInstanceStatus</type>
@@ -6561,7 +6561,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status executed]]></name>
+          <name><![CDATA[%Status_executed%]]></name>
           <description><![CDATA[]]></description>
           <sequence>20</sequence>
           <type>setInstanceStatus</type>

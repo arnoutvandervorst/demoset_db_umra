@@ -2104,7 +2104,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[trace denied]]></name>
+          <name><![CDATA[%Trace_denied%]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>traceMessage</type>
@@ -2164,7 +2164,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status denied]]></name>
+          <name><![CDATA[%Status_denied%]]></name>
           <description><![CDATA[]]></description>
           <sequence>4</sequence>
           <type>setInstanceStatus</type>
@@ -2342,7 +2342,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[trace approved]]></name>
+          <name><![CDATA[%Trace_approved%]]></name>
           <description><![CDATA[]]></description>
           <sequence>3</sequence>
           <type>traceMessage</type>
@@ -2357,7 +2357,7 @@
           <workflowLayerID>497</workflowLayerID>
           <umraVariable>
             <id>527</id>
-            <name><![CDATA[%status_approved%]]></name>
+            <name><![CDATA[%Status_approved%]]></name>
             <displayName>
               <translationObject>
                 <languages>
@@ -2402,7 +2402,7 @@
           <nextActivityID>
           </nextActivityID>
           <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[status approved]]></name>
+          <name><![CDATA[%Status_approved%]]></name>
           <description><![CDATA[]]></description>
           <sequence>4</sequence>
           <type>setInstanceStatus</type>

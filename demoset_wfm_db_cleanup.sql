@@ -93,6 +93,10 @@ FROM umraVariables v
 WHERE (ISNULL((SELECT COUNT(id) FROM fields f WHERE f.defaultValueUmraVariableID = v.ID OR f.umraVariableID = v.ID), 0) +
 ISNULL((SELECT COUNT(id) FROM activities a WHERE a.targetUmraVariableID = v.ID OR a.umraVariableID = v.ID), 0) +
 ISNULL((SELECT COUNT(id) FROM umraVariables v_r WHERE v_r.repositoryUmraScriptVariableID = v.ID), 0)) = 0
+AND v.ID <> (SELECT value FROM settings s WHERE s.name = 'delegation_RepositoryVariableID')
+AND v.ID <> (SELECT value FROM settings s WHERE s.name = 'assignments_RepositoryVariableID')
 
 DELETE FROM umraVariables WHERE ID IN
 (SELECT v.id FROM @table_umravariables v)
+
+

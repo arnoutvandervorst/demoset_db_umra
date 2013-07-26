@@ -1029,30 +1029,6 @@
             </fieldSet>
           </fieldSets>
         </activity>
-        <activity>
-          <id>2138</id>
-          <workflowLayerID>217</workflowLayerID>
-          <umraVariable>
-          </umraVariable>
-          <targetUmraVariable>
-          </targetUmraVariable>
-          <conditionTrueActivityID>
-          </conditionTrueActivityID>
-          <conditionFalseActivityID>
-          </conditionFalseActivityID>
-          <nextActivityID>
-          </nextActivityID>
-          <routingCondition><![CDATA[]]></routingCondition>
-          <name><![CDATA[end]]></name>
-          <description><![CDATA[]]></description>
-          <sequence>7</sequence>
-          <type>instanceClose</type>
-          <standby>True</standby>
-          <closeInstance>False</closeInstance>
-          <visible>True</visible>
-          <fieldSets>
-          </fieldSets>
-        </activity>
       </activities>
     </workflowLayer>
   </workflowLayers>
