@@ -1,33 +1,29 @@
 USE workflow
 GO
 
+-- set all workflowlayers to invisible when the workflow is invisible
 UPDATE workflowLayers SET visible = 0 WHERE workflowLayers.ID IN
-(SELECT workflowlayers.ID FROM workflowLayers
-INNER JOIN workflows ON workflows.ID = workflowLayers.workflowID
-WHERE workflows.visible = 0)
+(SELECT wl.ID FROM workflowLayers wl INNER JOIN workflows w ON w.ID = wl.workflowID WHERE w.visible = 0)
 
+-- set activities to invisible when the workflowlayer is invisible
 UPDATE activities SET visible = 0 WHERE activities.ID IN
-(SELECT activities.ID FROM activities
-INNER JOIN workflowLayers ON workflowLayers.ID = activities.workflowLayerID
-WHERE workflowLayers.visible = 0)
+(SELECT a.ID FROM activities a INNER JOIN workflowLayers wl ON wl.ID = a.workflowLayerID WHERE wl.visible = 0)
 
+-- set activities to invisible when the nextActivity on the field is invisible
 UPDATE activities SET visible = 0 WHERE activities.ID IN
-(SELECT fields.nextActivityID FROM fields
-WHERE fields.visible = 0)
+(SELECT f.nextActivityID FROM fields f WHERE f.visible = 0)
 
+-- set fieldsets to invisible when the activity is invisible
 UPDATE fieldSets SET visible = 0 WHERE fieldsets.ID IN
-(SELECT fieldsets.ID FROM fieldSets
-INNER JOIN activities ON activities.ID = fieldsets.activityID
-WHERE activities.visible = 0)
+(SELECT fs.ID FROM fieldSets fs INNER JOIN activities a ON a.ID = fs.activityID WHERE a.visible = 0)
 
+-- set fields to invisible when the fieldset is invisible
 UPDATE fields SET visible = 0 WHERE fields.ID IN
-(SELECT fields.ID FROM fields
-INNER JOIN fieldSets ON fieldsets.ID = fields.fieldsetID
-WHERE fieldsets.visible = 0)
+(SELECT f.ID FROM fields f INNER JOIN fieldSets fs ON fs.ID = f.fieldsetID WHERE fs.visible = 0)
 
+-- set fields to invisible when the nextActivity is invisible
 UPDATE fields SET visible = 0 WHERE fields.nextActivityID IN
-(SELECT activities.ID FROM activities
-WHERE activities.visible = 0)
+(SELECT a.ID FROM activities a WHERE a.visible = 0)
 
 TRUNCATE TABLE workflowInstanceData
 TRUNCATE TABLE workflowInstanceHistory
@@ -47,7 +43,7 @@ DELETE FROM fields WHERE visible = 0
 
 DECLARE @table_fieldsets TABLE (id bigint, nameTranslationObjectID bigint) 
 INSERT INTO @table_fieldsets
-SELECT f_s.id, f_s.nameTranslationObjectID FROM fieldSets f_s WHERE f_s.visible = 0
+SELECT fs.id, fs.nameTranslationObjectID FROM fieldSets fs WHERE fs.visible = 0
 
 DELETE FROM fieldSets WHERE visible = 0
 
@@ -67,11 +63,11 @@ INNER JOIN @table_fields f ON f.nameTranslationObjectID = t_o.id)
 DELETE FROM translations WHERE id IN
 (SELECT t.id FROM translations t
 INNER JOIN translationObjects t_o ON t.translationObjectID = t_o.id
-INNER JOIN @table_fieldsets f_s ON f_s.nameTranslationObjectID = t_o.id)
+INNER JOIN @table_fieldsets fs ON fs.nameTranslationObjectID = t_o.id)
 
 DELETE FROM translationObjects WHERE id IN
 (SELECT t_o.id FROM translationObjects t_o
-INNER JOIN @table_fieldsets f_s ON f_s.nameTranslationObjectID = t_o.id)
+INNER JOIN @table_fieldsets fs ON fs.nameTranslationObjectID = t_o.id)
 
 DELETE FROM activities WHERE visible = 0
 DELETE FROM WorkflowLayers WHERE visible = 0

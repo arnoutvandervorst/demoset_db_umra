@@ -206,8 +206,7 @@
                   </validationGroup>
                   <sequence>1</sequence>
                   <type>gridViewAdvanced</type>
-                  <maxLength>
-                  </maxLength>
+                  <maxLength>20</maxLength>
                   <defaultValueUmraVariable>
                     <id>579</id>
                     <name><![CDATA[%Table_groups_repository%]]></name>
