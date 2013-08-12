@@ -770,26 +770,6 @@
                   <defaultValueUmraVariable>
                   </defaultValueUmraVariable>
                   <validator>
-                    <id>1</id>
-                    <name><![CDATA[Field must have a value]]></name>
-                    <requiredField>True</requiredField>
-                    <regularExpressionValidation>False</regularExpressionValidation>
-                    <regularExpression><![CDATA[]]></regularExpression>
-                    <errorMessage>
-                      <translationObject>
-                        <languages>
-                          <language>
-                            <code>nl</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                          <language>
-                            <code>usa</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                        </languages>
-                      </translationObject>
-                    </errorMessage>
-                    <isDefault>False</isDefault>
                   </validator>
                   <textPart>
                   </textPart>
@@ -930,26 +910,6 @@
                   <defaultValueUmraVariable>
                   </defaultValueUmraVariable>
                   <validator>
-                    <id>1</id>
-                    <name><![CDATA[Field must have a value]]></name>
-                    <requiredField>True</requiredField>
-                    <regularExpressionValidation>False</regularExpressionValidation>
-                    <regularExpression><![CDATA[]]></regularExpression>
-                    <errorMessage>
-                      <translationObject>
-                        <languages>
-                          <language>
-                            <code>nl</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                          <language>
-                            <code>usa</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                        </languages>
-                      </translationObject>
-                    </errorMessage>
-                    <isDefault>False</isDefault>
                   </validator>
                   <textPart>
                   </textPart>
@@ -5532,26 +5492,6 @@
                     <repositoryThreshold>0</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
-                    <id>1</id>
-                    <name><![CDATA[Field must have a value]]></name>
-                    <requiredField>True</requiredField>
-                    <regularExpressionValidation>False</regularExpressionValidation>
-                    <regularExpression><![CDATA[]]></regularExpression>
-                    <errorMessage>
-                      <translationObject>
-                        <languages>
-                          <language>
-                            <code>nl</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                          <language>
-                            <code>usa</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                        </languages>
-                      </translationObject>
-                    </errorMessage>
-                    <isDefault>False</isDefault>
                   </validator>
                   <textPart>
                   </textPart>
@@ -5728,26 +5668,6 @@
                     <repositoryThreshold>0</repositoryThreshold>
                   </defaultValueUmraVariable>
                   <validator>
-                    <id>1</id>
-                    <name><![CDATA[Field must have a value]]></name>
-                    <requiredField>True</requiredField>
-                    <regularExpressionValidation>False</regularExpressionValidation>
-                    <regularExpression><![CDATA[]]></regularExpression>
-                    <errorMessage>
-                      <translationObject>
-                        <languages>
-                          <language>
-                            <code>nl</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                          <language>
-                            <code>usa</code>
-                            <value><![CDATA[Please enter or select a value]]></value>
-                          </language>
-                        </languages>
-                      </translationObject>
-                    </errorMessage>
-                    <isDefault>False</isDefault>
                   </validator>
                   <textPart>
                   </textPart>
