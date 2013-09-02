@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <workflow>
+  <WFM-Version>v3.2.3</WFM-Version>
   <languages>
     <language>
       <code>nl</code>
@@ -17,6 +18,7 @@
     </language>
   </languages>
   <id>108</id>
+  <isDelegable>True</isDelegable>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description>
     <translationObject>
@@ -311,6 +313,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1868</id>
@@ -363,6 +366,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1869</id>
@@ -414,6 +418,7 @@
                   </helpTextPart>
                   <nextActivityID>3894</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -871,6 +876,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1871</id>
@@ -923,6 +929,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1872</id>
@@ -975,6 +982,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>

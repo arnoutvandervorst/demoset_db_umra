@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <workflow>
+  <WFM-Version>v3.2.3</WFM-Version>
   <languages>
     <language>
       <code>nl</code>
@@ -17,6 +18,7 @@
     </language>
   </languages>
   <id>144</id>
+  <isDelegable>True</isDelegable>
   <adGroupName><![CDATA[GG_WFM_Management]]></adGroupName>
   <description>
     <translationObject>
@@ -615,6 +617,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -759,6 +762,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3212</id>
@@ -811,6 +815,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3213</id>
@@ -862,6 +867,7 @@
                   </helpTextPart>
                   <nextActivityID>5577</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -1668,6 +1674,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3215</id>
@@ -1720,6 +1727,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3216</id>
@@ -1772,6 +1780,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3217</id>
@@ -1823,6 +1832,7 @@
                   </helpTextPart>
                   <nextActivityID>5584</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -2159,6 +2169,14 @@
           <standby>False</standby>
           <closeInstance>False</closeInstance>
           <visible>True</visible>
+          <translationObject>
+            <languages>
+              <language>
+                <code>nl</code>
+                <value><![CDATA[{551}]]></value>
+              </language>
+            </languages>
+          </translationObject>
           <fieldSets>
           </fieldSets>
         </activity>
@@ -2269,6 +2287,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3219</id>
@@ -2321,6 +2340,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3220</id>
@@ -2373,6 +2393,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <workflow>
+  <WFM-Version>v3.2.3</WFM-Version>
   <languages>
     <language>
       <code>nl</code>
@@ -17,6 +18,7 @@
     </language>
   </languages>
   <id>115</id>
+  <isDelegable>True</isDelegable>
   <adGroupName><![CDATA[everyone]]></adGroupName>
   <description>
     <translationObject>
@@ -538,6 +540,7 @@
                   </helpTextPart>
                   <nextActivityID>4053</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1964</id>
@@ -590,6 +593,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1965</id>
@@ -641,6 +645,7 @@
                   </helpTextPart>
                   <nextActivityID>4053</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -1315,6 +1320,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>2360</id>
@@ -1367,6 +1373,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>2361</id>
@@ -1418,6 +1425,7 @@
                   </helpTextPart>
                   <nextActivityID>4647</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -1614,6 +1622,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1967</id>
@@ -1666,6 +1675,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1968</id>
@@ -1718,6 +1728,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1969</id>
@@ -1769,6 +1780,7 @@
                   </helpTextPart>
                   <nextActivityID>4062</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -2335,6 +2347,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1972</id>
@@ -2387,6 +2400,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1973</id>
@@ -2439,6 +2453,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>1974</id>
@@ -2490,6 +2505,7 @@
                   </helpTextPart>
                   <nextActivityID>4071</nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -2826,6 +2842,14 @@
           <standby>False</standby>
           <closeInstance>False</closeInstance>
           <visible>True</visible>
+          <translationObject>
+            <languages>
+              <language>
+                <code>nl</code>
+                <value><![CDATA[{551}]]></value>
+              </language>
+            </languages>
+          </translationObject>
           <fieldSets>
           </fieldSets>
         </activity>
@@ -2996,6 +3020,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3044</id>
@@ -3048,6 +3073,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
                 <field>
                   <id>3047</id>
@@ -3100,6 +3126,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -3978,6 +4005,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4066,6 +4094,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4190,6 +4219,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4314,6 +4344,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4438,6 +4469,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4562,6 +4594,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4686,6 +4719,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
@@ -4810,6 +4844,7 @@
                   <nextActivityID>
                   </nextActivityID>
                   <visible>True</visible>
+                  <hidden>False</hidden>
                 </field>
               </fields>
             </fieldSet>
