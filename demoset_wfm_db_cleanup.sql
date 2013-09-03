@@ -133,4 +133,19 @@ PRINT 'delete obsolete umraVariables'
 DELETE FROM umraVariables WHERE ID IN
 (SELECT v.id FROM @table_umravariables v)
 
-
+PRINT 'getting obsolete translations'
+DECLARE @table_translations TABLE (id bigint)
+INSERT INTO @table_translations
+SELECT t.id
+FROM translations t
+INNER JOIN translationObjects t_o ON t_o.id = t.translationObjectID
+WHERE t_o.id NOT IN (SELECT w.nameTranslationObjectID FROM workflows w)
+AND t_o.id NOT IN (SELECT w.descriptionTranslationObjectID FROM workflows w)
+AND t_o.id NOT IN (SELECT fs.nameTranslationObjectID FROM fieldSets fs)
+AND t_o.id NOT IN (SELECT f.nameTranslationObjectID FROM fields f)
+AND t_o.id NOT IN (SELECT wc.nameTranslationObjectID FROM workflowCategories wc)
+AND t_o.id NOT IN (SELECT tp.valueTranslationObjectID FROM textParts tp)
+AND t_o.id NOT IN (SELECT fv.errorMessageTranslationObjectID FROM fieldValidators fv)
+AND t_o.id NOT IN (SELECT uv_d.defaultValueTranslationObjectID FROM umraVariables uv_d)
+AND t_o.id NOT IN (SELECT uv_n.displayNameTranslationObjectID FROM umraVariables uv_n)
+AND t_o.isDefault = 0

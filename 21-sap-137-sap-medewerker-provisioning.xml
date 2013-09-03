@@ -18,18 +18,18 @@
     </language>
   </languages>
   <id>137</id>
-  <isDelegable>True</isDelegable>
+  <isDelegable>False</isDelegable>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description>
     <translationObject>
       <languages>
         <language>
           <code>nl</code>
-          <value><![CDATA[]]></value>
+          <value><![CDATA[Maak een Active Directory user account aan voor een SAP medewerker met een actief dienstverband]]></value>
         </language>
         <language>
           <code>usa</code>
-          <value><![CDATA[]]></value>
+          <value><![CDATA[Create an Active Directory user account for an AFAS employee with a valid and active contract]]></value>
         </language>
       </languages>
     </translationObject>

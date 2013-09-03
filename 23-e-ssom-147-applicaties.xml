@@ -18,18 +18,18 @@
     </language>
   </languages>
   <id>147</id>
-  <isDelegable>True</isDelegable>
+  <isDelegable>False</isDelegable>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description>
     <translationObject>
       <languages>
         <language>
           <code>nl</code>
-          <value><![CDATA[]]></value>
+          <value><![CDATA[Bekijk statistieken van applicaties via E-SSOM worden aangeboden aan gebruikers]]></value>
         </language>
         <language>
           <code>usa</code>
-          <value><![CDATA[]]></value>
+          <value><![CDATA[View E-SSOM published application statistics]]></value>
         </language>
       </languages>
     </translationObject>

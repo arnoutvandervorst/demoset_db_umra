@@ -18,7 +18,7 @@
     </language>
   </languages>
   <id>81</id>
-  <isDelegable>True</isDelegable>
+  <isDelegable>False</isDelegable>
   <adGroupName><![CDATA[GG_WFM_Servicedesk]]></adGroupName>
   <description>
     <translationObject>
@@ -321,6 +321,66 @@
           </fieldSets>
         </activity>
         <activity>
+          <id>5677</id>
+          <workflowLayerID>322</workflowLayerID>
+          <umraVariable>
+            <id>1218</id>
+            <name><![CDATA[Execute UMRA script]]></name>
+            <displayName>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </displayName>
+            <defaultValue>
+              <translationObject>
+                <languages>
+                  <language>
+                    <code>nl</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                  <language>
+                    <code>usa</code>
+                    <value><![CDATA[]]></value>
+                  </language>
+                </languages>
+              </translationObject>
+            </defaultValue>
+            <umraScript><![CDATA[function-wfm-repository-clear]]></umraScript>
+            <type>script</type>
+            <isRepositoryVariable>False</isRepositoryVariable>
+            <repositoryUmraScriptVariable>
+            </repositoryUmraScriptVariable>
+            <repositoryThreshold>0</repositoryThreshold>
+          </umraVariable>
+          <targetUmraVariable>
+          </targetUmraVariable>
+          <conditionTrueActivityID>
+          </conditionTrueActivityID>
+          <conditionFalseActivityID>
+          </conditionFalseActivityID>
+          <nextActivityID>
+          </nextActivityID>
+          <routingCondition><![CDATA[]]></routingCondition>
+          <name><![CDATA[function-wfm-repository-clear]]></name>
+          <description><![CDATA[]]></description>
+          <sequence>23</sequence>
+          <type>executeScript</type>
+          <standby>False</standby>
+          <closeInstance>False</closeInstance>
+          <visible>True</visible>
+          <fieldSets>
+          </fieldSets>
+        </activity>
+        <activity>
           <id>5471</id>
           <workflowLayerID>322</workflowLayerID>
           <umraVariable>
@@ -372,7 +432,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[%Status_operation%]]></name>
           <description><![CDATA[]]></description>
-          <sequence>23</sequence>
+          <sequence>24</sequence>
           <type>getVariable</type>
           <standby>False</standby>
           <closeInstance>False</closeInstance>
@@ -396,7 +456,7 @@
           <routingCondition><![CDATA[]]></routingCondition>
           <name><![CDATA[form-process]]></name>
           <description><![CDATA[]]></description>
-          <sequence>24</sequence>
+          <sequence>25</sequence>
           <type>renderForm</type>
           <standby>True</standby>
           <closeInstance>False</closeInstance>
