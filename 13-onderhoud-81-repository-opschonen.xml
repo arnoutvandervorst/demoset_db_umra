@@ -3,16 +3,16 @@
   <WFM-Version>v3.2.3</WFM-Version>
   <languages>
     <language>
-      <code>nl</code>
-      <name><![CDATA[Nederlands]]></name>
-      <image><![CDATA[/design/img/languages/flag_netherlands.png]]></image>
+      <code>usa</code>
+      <name><![CDATA[English]]></name>
+      <image><![CDATA[/design/img/languages/flag_usa.png]]></image>
       <isDefault>True</isDefault>
       <enabled>True</enabled>
     </language>
     <language>
-      <code>usa</code>
-      <name><![CDATA[English]]></name>
-      <image><![CDATA[/design/img/languages/flag_usa.png]]></image>
+      <code>nl</code>
+      <name><![CDATA[Nederlands]]></name>
+      <image><![CDATA[/design/img/languages/flag_netherlands.png]]></image>
       <isDefault>False</isDefault>
       <enabled>True</enabled>
     </language>
@@ -24,12 +24,12 @@
     <translationObject>
       <languages>
         <language>
-          <code>nl</code>
-          <value><![CDATA[Voer een refresh uit van de interne UMRA repository, deze bevat onder andere informatie uit de Active Directory]]></value>
-        </language>
-        <language>
           <code>usa</code>
           <value><![CDATA[Force a full refresh of the internal WFM repository cache]]></value>
+        </language>
+        <language>
+          <code>nl</code>
+          <value><![CDATA[Voer een refresh uit van de interne UMRA repository, deze bevat onder andere informatie uit de Active Directory]]></value>
         </language>
       </languages>
     </translationObject>
@@ -38,12 +38,12 @@
     <translationObject>
       <languages>
         <language>
-          <code>nl</code>
-          <value><![CDATA[Repository opschonen]]></value>
-        </language>
-        <language>
           <code>usa</code>
           <value><![CDATA[Clear repository data]]></value>
+        </language>
+        <language>
+          <code>nl</code>
+          <value><![CDATA[Repository opschonen]]></value>
         </language>
       </languages>
     </translationObject>
@@ -57,12 +57,12 @@
       <translationObject>
         <languages>
           <language>
-            <code>nl</code>
-            <value><![CDATA[Onderhoud]]></value>
-          </language>
-          <language>
             <code>usa</code>
             <value><![CDATA[Maintenance]]></value>
+          </language>
+          <language>
+            <code>nl</code>
+            <value><![CDATA[Onderhoud]]></value>
           </language>
         </languages>
       </translationObject>
@@ -107,12 +107,12 @@
                 <translationObject>
                   <languages>
                     <language>
-                      <code>nl</code>
-                      <value><![CDATA[Samenvatting]]></value>
-                    </language>
-                    <language>
                       <code>usa</code>
                       <value><![CDATA[Summary]]></value>
+                    </language>
+                    <language>
+                      <code>nl</code>
+                      <value><![CDATA[Samenvatting]]></value>
                     </language>
                   </languages>
                 </translationObject>
@@ -121,11 +121,11 @@
                 <translationObject>
                   <languages>
                     <language>
-                      <code>nl</code>
+                      <code>usa</code>
                       <value><![CDATA[]]></value>
                     </language>
                     <language>
-                      <code>usa</code>
+                      <code>nl</code>
                       <value><![CDATA[]]></value>
                     </language>
                   </languages>
@@ -144,12 +144,12 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
-                          <value><![CDATA[Refresh de repository]]></value>
-                        </language>
-                        <language>
                           <code>usa</code>
                           <value><![CDATA[Refresh repository]]></value>
+                        </language>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Refresh de repository]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -158,11 +158,11 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
+                          <code>usa</code>
                           <value><![CDATA[]]></value>
                         </language>
                         <language>
-                          <code>usa</code>
+                          <code>nl</code>
                           <value><![CDATA[]]></value>
                         </language>
                       </languages>
@@ -210,11 +210,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -224,11 +224,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -270,11 +270,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -284,11 +284,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -330,11 +330,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -344,11 +344,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -390,11 +390,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[Status]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[Status]]></value>
                   </language>
                 </languages>
@@ -404,11 +404,11 @@
               <translationObject>
                 <languages>
                   <language>
-                    <code>nl</code>
+                    <code>usa</code>
                     <value><![CDATA[]]></value>
                   </language>
                   <language>
-                    <code>usa</code>
+                    <code>nl</code>
                     <value><![CDATA[]]></value>
                   </language>
                 </languages>
@@ -469,11 +469,11 @@
                 <translationObject>
                   <languages>
                     <language>
-                      <code>nl</code>
+                      <code>usa</code>
                       <value><![CDATA[Details]]></value>
                     </language>
                     <language>
-                      <code>usa</code>
+                      <code>nl</code>
                       <value><![CDATA[Details]]></value>
                     </language>
                   </languages>
@@ -483,11 +483,11 @@
                 <translationObject>
                   <languages>
                     <language>
-                      <code>nl</code>
+                      <code>usa</code>
                       <value><![CDATA[]]></value>
                     </language>
                     <language>
-                      <code>usa</code>
+                      <code>nl</code>
                       <value><![CDATA[]]></value>
                     </language>
                   </languages>
@@ -506,11 +506,11 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
+                          <code>usa</code>
                           <value><![CDATA[Details]]></value>
                         </language>
                         <language>
-                          <code>usa</code>
+                          <code>nl</code>
                           <value><![CDATA[Details]]></value>
                         </language>
                       </languages>
@@ -520,11 +520,11 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
+                          <code>usa</code>
                           <value><![CDATA[]]></value>
                         </language>
                         <language>
-                          <code>usa</code>
+                          <code>nl</code>
                           <value><![CDATA[]]></value>
                         </language>
                       </languages>
@@ -559,11 +559,11 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
+                          <code>usa</code>
                           <value><![CDATA[Spacer]]></value>
                         </language>
                         <language>
-                          <code>usa</code>
+                          <code>nl</code>
                           <value><![CDATA[Spacer]]></value>
                         </language>
                       </languages>
@@ -573,11 +573,11 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
+                          <code>usa</code>
                           <value><![CDATA[]]></value>
                         </language>
                         <language>
-                          <code>usa</code>
+                          <code>nl</code>
                           <value><![CDATA[]]></value>
                         </language>
                       </languages>
@@ -612,12 +612,12 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
-                          <value><![CDATA[Terug naar begin]]></value>
-                        </language>
-                        <language>
                           <code>usa</code>
                           <value><![CDATA[Back to start]]></value>
+                        </language>
+                        <language>
+                          <code>nl</code>
+                          <value><![CDATA[Terug naar begin]]></value>
                         </language>
                       </languages>
                     </translationObject>
@@ -626,11 +626,11 @@
                     <translationObject>
                       <languages>
                         <language>
-                          <code>nl</code>
+                          <code>usa</code>
                           <value><![CDATA[]]></value>
                         </language>
                         <language>
-                          <code>usa</code>
+                          <code>nl</code>
                           <value><![CDATA[]]></value>
                         </language>
                       </languages>
