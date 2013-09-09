@@ -37,6 +37,12 @@ TRUNCATE TABLE workflowInstanceLock
 PRINT 'truncate workflowInstanceTrace'
 TRUNCATE TABLE workflowInstanceTrace
 
+PRINT 'truncate workflowInstanceReadFlag'
+TRUNCATE TABLE workflowInstanceReadFlag
+
+PRINT 'truncate workflowInstanceReminders'
+TRUNCATE TABLE workflowInstanceReminders
+
 PRINT 'truncate workflowDelegation'
 TRUNCATE TABLE workflowDelegation
 
