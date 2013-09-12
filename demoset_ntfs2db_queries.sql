@@ -1,4 +1,4 @@
-DECLARE @ColID integer = 20
+DECLARE @ColID integer = 14
 
 PRINT '# of objects in collection'
 SELECT COUNT(*) AS 'Total # of NTFS objects'
@@ -324,3 +324,22 @@ dbo.GetFullFilePath(@ColID,f.ID) AS 'NTFS-object'
 FROM GetFilesByCollID(@ColID) f
 INNER JOIN SecurityDescriptors sd ON f.SdID = sd.ID
 WHERE (sd.SdControl & 4096 = 4096 OR sd.SdControl & 8192 = 8192)
+
+PRINT 'All NTFS objects which have attributes other than "normal", "directory" or "archive"'
+PRINT 'Advice: for security/consistency consideration purposes'
+SELECT 
+dbo.GetFullFilePath(@ColID,f.ID) AS 'NTFS-object',
+(SELECT CASE WHEN f.Attributes & 1 = 1 THEN 'Yes' ELSE 'No' END) AS 'Read-only',
+(SELECT CASE WHEN f.Attributes & 2 = 2 THEN 'Yes' ELSE 'No' END) AS 'Hidden',
+(SELECT CASE WHEN f.Attributes & 4 = 4 THEN 'Yes' ELSE 'No' END) AS 'System',
+(SELECT CASE WHEN f.Attributes & 64 = 64 THEN 'Yes' ELSE 'No' END) AS 'Device',
+(SELECT CASE WHEN f.Attributes & 256 = 256 THEN 'Yes' ELSE 'No' END) AS 'Temporary',
+(SELECT CASE WHEN f.Attributes & 512 = 512 THEN 'Yes' ELSE 'No' END) AS 'Sparse file',
+(SELECT CASE WHEN f.Attributes & 1024 = 1024 THEN 'Yes' ELSE 'No' END) AS 'Reparse point',
+(SELECT CASE WHEN f.Attributes & 2048 = 2048 THEN 'Yes' ELSE 'No' END) AS 'Compressed',
+(SELECT CASE WHEN f.Attributes & 4096 = 4096 THEN 'Yes' ELSE 'No' END) AS 'Offline',
+(SELECT CASE WHEN f.Attributes & 8192 = 8192 THEN 'Yes' ELSE 'No' END) AS 'Not content-indexed',
+(SELECT CASE WHEN f.Attributes & 16384 = 16384 THEN 'Yes' ELSE 'No' END) AS 'Encrypted'
+FROM GetFilesByCollID(@ColID) f
+INNER JOIN SecurityDescriptors sd ON f.SdID = sd.ID
+WHERE f.Attributes <> 16 AND f.Attributes <> 128 AND f.Attributes <> 32 AND f.Attributes <> 48
