@@ -1,4 +1,4 @@
-DECLARE @ColID integer = 14
+DECLARE @ColID integer = 20
 
 PRINT '# of objects in collection'
 SELECT COUNT(*) AS 'Total # of NTFS objects'
@@ -258,6 +258,27 @@ INNER JOIN GetAccountsByCollID(@ColID) a ON a.SidID = s_ace.ID
 INNER JOIN AccountTypes t ON t.Type = a.Type
 WHERE NOT ace.Mask IN (SELECT ace_m_v.Value FROM AceMaskValues ace_m_v)
 AND NOT ace.Flags & 16 = 16
+
+PRINT 'Top-level folders where the folder name is different from the account name that has explicit permissions on the folder (home/profile)'
+PRINT 'Advice: for security consideration purposes, only relevant for home & profile folders'
+SELECT 
+dbo.GetFullFilePath(@ColID,f.ID) AS 'NTFS-object',
+ISNULL(a.Name,s_ace.String) AS 'Permission-account',
+ISNULL(a.Domain,'') AS 'Account-domain',
+ISNULL(ace_m_v.Text, 'Special') AS 'Rights'
+FROM GetFilesByCollID(@ColID) f
+INNER JOIN SecurityDescriptors sd ON f.SdID = sd.ID
+INNER JOIN Acls acl ON acl.ID = sd.DaclID
+INNER JOIN AclsVsAces a_a ON a_a.AclID = acl.ID
+INNER JOIN Aces ace ON ace.ID = a_a.AceID
+INNER JOIN Sids s_ace ON s_ace.ID = ace.SidID
+LEFT JOIN GetAccountsByCollID(@ColID) a ON a.SidID = s_ace.ID
+LEFT JOIN AccountTypes t ON t.Type = a.Type
+LEFT JOIN AceMaskValues ace_m_v ON ace_m_v.Value = ace.Mask
+WHERE a.Type = 1
+AND f.ParentFRN = 0
+AND NOT ace.Flags & 16 = 16
+AND f.Name <> a.Name
 
 PRINT 'NTFS-objects with SIDs that no longer represent an Active Directory user account or group, or a local computer account'
 PRINT 'Advice: should be removed since they are no longer valid permissions, improves NTFS performance'
