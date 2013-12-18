@@ -47,6 +47,14 @@ LEFT JOIN translations t ON t.translationObjectID = t_o.id
 	AND t.languageID = @id_language
 WHERE w.visible = 0
 
+DECLARE @workflowcategories_used TABLE (id bigint)
+INSERT INTO @workflowcategories_used
+SELECT
+w_c.ID
+FROM workflowCategories w_c
+INNER JOIN workflows w ON w.categoryID = w_c.ID
+WHERE w.visible = 1
+
 DECLARE @workflowcategories_unused TABLE (id bigint, name varchar(255), id_to bigint)
 INSERT INTO @workflowcategories_unused
 SELECT 
@@ -58,6 +66,7 @@ LEFT JOIN translationObjects t_o ON t_o.id = w_c.nameTranslationObjectID
 LEFT JOIN translations t ON t.translationObjectID = t_o.id
 	AND t.languageID = @id_language
 WHERE w_c.ID IN (SELECT id_category FROM @workflows_invisible)
+AND NOT w_c.ID IN (SELECT id FROM @workflowcategories_used)
 
 DECLARE @workflowlayers_invisible TABLE (id bigint, name varchar(255), id_workflow bigint)
 INSERT INTO @workflowlayers_invisible
@@ -154,6 +163,14 @@ FROM umraVariables u_v
 INNER JOIN umraVariables u_v_d ON u_v_d.name = u_v.name AND u_v.umraScript IS NULL
 WHERE u_v.ID <> u_v_d.ID
 
+DECLARE @textparts_used TABLE (id bigint)
+INSERT INTO @textparts_used
+SELECT
+t_p.id
+FROM textParts t_p
+WHERE t_p.id IN (SELECT f.textPartID FROM fields f WHERE f.visible = 1)
+OR t_p.id IN (SELECT f.helpTextPartID FROM fields f WHERE f.visible = 1)
+
 DECLARE @textparts_unused TABLE (id bigint, id_to bigint)
 INSERT INTO @textparts_unused
 SELECT 
@@ -162,6 +179,7 @@ t_p.valueTranslationObjectID
 FROM textParts t_p
 WHERE t_p.id IN (SELECT f.id_tp FROM @fields_invisible f)
 OR t_p.id IN (SELECT f.id_tp_h FROM @fields_invisible f)
+AND NOT t_p.id IN (SELECT id FROM @textparts_used)
 
 DECLARE @translationobjects_unused TABLE (id bigint)
 INSERT INTO @translationobjects_unused
@@ -189,12 +207,16 @@ SELECT * FROM @workflowcategories_unused
 SELECT * FROM @activities_invisible
 SELECT * FROM @fieldsets_invisible
 SELECT * FROM @fields_invisible
+SELECT * FROM @textparts_unused
 SELECT * FROM @umravariables_unused
 SELECT * FROM @umravariables_duplicate
 SELECT * FROM @translations_unused
 
 DELETE FROM umraVariables WHERE ID IN
 (SELECT id FROM @umravariables_unused)
+
+DELETE FROM textParts WHERE ID IN
+(SELECT id FROM @textparts_unused)
 
 DELETE FROM fields WHERE ID IN
 (SELECT id FROM @fields_invisible)
