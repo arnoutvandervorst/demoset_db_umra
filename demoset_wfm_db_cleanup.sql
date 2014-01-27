@@ -148,10 +148,6 @@ u_v.defaultValueTranslationObjectID,
 u_v.displayNameTranslationObjectID
 FROM umraVariables u_v
 WHERE u_v.ID NOT IN (SELECT id FROM @umravariables_used)
-AND (u_v.ID IN (SELECT f.id_uv FROM @fields_invisible f)
-OR u_v.ID IN (SELECT f.id_uv_def FROM @fields_invisible f)
-OR u_v.ID IN (SELECT a.id_uv FROM @activities_invisible a)
-OR u_v.ID IN (SELECT a.id_uv_target FROM @activities_invisible a))
 
 DECLARE @umravariables_duplicate TABLE (id bigint, name varchar(255), umrascript varchar(255))
 INSERT INTO @umravariables_duplicate
@@ -208,6 +204,7 @@ SELECT * FROM @activities_invisible
 SELECT * FROM @fieldsets_invisible
 SELECT * FROM @fields_invisible
 SELECT * FROM @textparts_unused
+SELECT * FROM @umravariables_used
 SELECT * FROM @umravariables_unused
 SELECT * FROM @umravariables_duplicate
 SELECT * FROM @translations_unused
