@@ -173,24 +173,31 @@ SELECT
 t_p.id, 
 t_p.valueTranslationObjectID 
 FROM textParts t_p
-WHERE t_p.id IN (SELECT f.id_tp FROM @fields_invisible f)
-OR t_p.id IN (SELECT f.id_tp_h FROM @fields_invisible f)
-AND NOT t_p.id IN (SELECT id FROM @textparts_used)
+WHERE NOT t_p.id IN (SELECT id FROM @textparts_used)
+
+DECLARE @translationobjects_used TABLE (id bigint)
+INSERT INTO @translationobjects_used
+SELECT t_o.id
+FROM translationObjects t_o
+WHERE t_o.id IN (SELECT w.descriptionTranslationObjectID FROM workflows w WHERE w.visible = 1)
+OR t_o.id IN (SELECT w.nameTranslationObjectID FROM workflows w WHERE w.visible = 1)
+OR t_o.id IN (SELECT a.translationObjectID FROM activities a WHERE a.visible = 1)
+OR t_o.id IN (SELECT f_s.nameTranslationObjectID FROM fieldSets f_s WHERE f_s.visible = 1)
+OR t_o.id IN (SELECT f_s.descriptionTranslationObjectID FROM fieldSets f_s WHERE f_s.visible = 1)
+OR t_o.id IN (SELECT f.nameTranslationObjectID FROM fields f WHERE f.visible = 1)
+OR t_o.id IN (SELECT f.descriptionTranslationObjectID FROM fields f WHERE f.visible = 1)
+OR t_o.id IN (SELECT w_c.nameTranslationObjectID FROM workflowCategories w_c)
+OR t_o.id IN (SELECT t_p.valueTranslationObjectID FROM textParts t_p)
+OR t_o.id IN (SELECT u_v.defaultValueTranslationObjectID FROM umraVariables u_v)
+OR t_o.id IN (SELECT u_v.displayNameTranslationObjectID FROM umraVariables u_v)
+OR t_o.id IN (SELECT f_v.errorMessageTranslationObjectID FROM fieldValidators f_v)
+OR t_o.isDefault = 1
 
 DECLARE @translationobjects_unused TABLE (id bigint)
 INSERT INTO @translationobjects_unused
 SELECT t_o.id
 FROM translationObjects t_o
-WHERE t_o.id IN (SELECT w.id_to_d FROM @workflows_invisible w)
-OR t_o.id IN (SELECT w.id_to_n FROM @workflows_invisible w)
-OR t_o.id IN (SELECT a.id_to FROM @activities_invisible a)
-OR t_o.id IN (SELECT f_s.id_to FROM @fieldsets_invisible f_s)
-OR t_o.id IN (SELECT f.id_to_d FROM @fields_invisible f)
-OR t_o.id IN (SELECT f.id_to_n FROM @fields_invisible f)
-OR t_o.id IN (SELECT w_c.id_to FROM @workflowcategories_unused w_c)
-OR t_o.id IN (SELECT t_p.id_to FROM @textparts_unused t_p)
-OR t_o.id IN (SELECT u_v.id_to_def FROM @umravariables_unused u_v)
-OR t_o.id IN (SELECT u_v.id_to_dspl FROM @umravariables_unused u_v)
+WHERE t_o.id NOT IN (SELECT id FROM @translationobjects_used)
 
 DECLARE @translations_unused TABLE (id bigint, value varchar(MAX))
 INSERT INTO @translations_unused
@@ -208,15 +215,34 @@ SELECT * FROM @umravariables_used
 SELECT * FROM @umravariables_unused
 SELECT * FROM @umravariables_duplicate
 SELECT * FROM @translations_unused
+SELECT * FROM @translationobjects_unused
+
+--Displays duplicate nameTranslationObjectID on fieldSets
+SELECT
+f_s.nameTranslationObjectID
+FROM fieldsets f_s
+WHERE f_s.visible = 1
+GROUP BY f_s.nameTranslationObjectID
+HAVING COUNT(f_s.id) > 1
+ORDER BY f_s.nameTranslationObjectID
+
+--Displays duplicate nameTranslationObjectID on fields
+SELECT
+f.nameTranslationObjectID
+FROM fields f
+WHERE f.visible = 1
+GROUP BY f.nameTranslationObjectID
+HAVING COUNT(f.id) > 1
+ORDER BY f.nameTranslationObjectID
 
 DELETE FROM umraVariables WHERE ID IN
 (SELECT id FROM @umravariables_unused)
 
-DELETE FROM textParts WHERE ID IN
-(SELECT id FROM @textparts_unused)
-
 DELETE FROM fields WHERE ID IN
 (SELECT id FROM @fields_invisible)
+
+DELETE FROM textParts WHERE ID IN
+(SELECT id FROM @textparts_unused)
 
 DELETE FROM fieldSets WHERE ID IN
 (SELECT id FROM @fieldsets_invisible)
