@@ -134,6 +134,7 @@ OR u_v.ID IN (SELECT f.umraVariableID FROM fields f)
 OR u_v.ID IN (SELECT a.targetUmraVariableID FROM activities a)
 OR u_v.ID IN (SELECT a.umraVariableID FROM activities a)
 OR u_v.ID IN (SELECT u_v_r.repositoryUmraScriptVariableID FROM umraVariables u_v_r)
+OR u_v.ID IN (SELECT a_v.umraVariableID FROM activityUmraVariables a_v)
 OR u_v.ID = (SELECT value FROM settings s WHERE s.name = 'delegation_RepositoryVariableID')
 OR u_v.ID = (SELECT value FROM settings s WHERE s.name = 'assignments_RepositoryVariableID')
 OR u_v.isRepositoryVariable = 1
