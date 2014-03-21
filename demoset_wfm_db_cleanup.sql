@@ -236,32 +236,42 @@ GROUP BY f.nameTranslationObjectID
 HAVING COUNT(f.id) > 1
 ORDER BY f.nameTranslationObjectID
 
+PRINT 'delete umraVariables'
 DELETE FROM umraVariables WHERE ID IN
 (SELECT id FROM @umravariables_unused)
 
+PRINT 'delete fields'
 DELETE FROM fields WHERE ID IN
 (SELECT id FROM @fields_invisible)
 
+PRINT 'delete textParts'
 DELETE FROM textParts WHERE ID IN
 (SELECT id FROM @textparts_unused)
 
+PRINT 'delete fieldSets'
 DELETE FROM fieldSets WHERE ID IN
 (SELECT id FROM @fieldsets_invisible)
 
+PRINT 'delete activities'
 DELETE FROM activities WHERE ID IN
 (SELECT id FROM @activities_invisible)
 
+PRINT 'delete workflowLayers'
 DELETE FROM workflowLayers WHERE ID IN
 (SELECT id FROM @workflowlayers_invisible)
 
+PRINT 'delete workflows'
 DELETE FROM workflows WHERE ID IN
 (SELECT id FROM @workflows_invisible)
 
+PRINT 'delete workflowCategories'
 DELETE FROM workflowCategories WHERE ID IN
 (SELECT id FROM @workflowcategories_unused)
 
+PRINT 'delete translations'
 DELETE FROM translations WHERE ID IN
 (SELECT id FROM @translations_unused)
 
+PRINT 'delete translationObjects'
 DELETE FROM translationObjects WHERE id IN
 (SELECT id FROM @translationobjects_unused)
