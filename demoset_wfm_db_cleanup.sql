@@ -91,6 +91,13 @@ FROM activities a
 WHERE a.visible = 0
 OR a.workflowLayerID IN (SELECT id FROM @workflowlayers_invisible)
 
+DECLARE @activityUmraVariables_unused TABLE (id bigint)
+INSERT INTO @activityUmraVariables_unused
+SELECT
+a_u_v.id
+FROM activityUmraVariables a_u_v
+WHERE a_u_v.activityID IN (SELECT id FROM @activities_invisible)
+
 DECLARE @fieldsets_invisible TABLE (id bigint, name varchar(255), id_to bigint)
 INSERT INTO @fieldsets_invisible
 SELECT 
@@ -251,6 +258,10 @@ DELETE FROM textParts WHERE ID IN
 PRINT 'delete fieldSets'
 DELETE FROM fieldSets WHERE ID IN
 (SELECT id FROM @fieldsets_invisible)
+
+PRINT 'delete activityUmraVariables'
+DELETE FROM activityUmraVariables WHERE id IN
+(SELECT id FROM @activityUmraVariables_unused)
 
 PRINT 'delete activities'
 DELETE FROM activities WHERE ID IN
